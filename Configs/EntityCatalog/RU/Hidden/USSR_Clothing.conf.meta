@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{EC0CE7D033ABD34C}Configs/EntityCatalog/RU/Hidden/USSR_Clothing.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

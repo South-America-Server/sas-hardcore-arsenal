@@ -1,0 +1,76 @@
+GameEntity {
+ ID "68F927E584EE1A43"
+ components {
+  SignalsManagerComponent "{68F927E584EE1A5F}" {
+  }
+  SoundComponent "{68F927E584EE1A68}" {
+   Filenames {
+    "{927BE973F8A2D7FA}Sounds/Items/_SharedData/PickUp/Items_PickUp_Cloth.acp" "{F62001ED6E9FA253}Sounds/Items/_SharedData/Drop/Items_Drop_Clothes.acp"
+   }
+   DistanceManagement 0
+  }
+  InventoryItemComponent "{68F927E584EE1A6D}" {
+   Attributes SCR_ItemAttributeCollection "{68F927E584EE1A62}" {
+    ItemDisplayName UIInfo "{68F927E584EE1A66}" {
+     Name "#Ochki_6B34"
+     Description "#Ochki_6B34_DISC"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{68F927E584EE1A79}" {
+     Weight 0.2
+     SizeSetupStrategy Manual
+     ItemDimensions 1 1 1
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{68F927E584EE1A7E}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 2
+      FOV 10
+      PreviewWornModel 1
+     }
+    }
+   }
+  }
+  MeshObject "{68F927E584EE1A70}" {
+   Object "{3BFDDCB3E81E0CDF}Assets/Characters/HeadGear/6b34/6b34_miniTape.xob"
+  }
+  ParametricMaterialInstanceComponent "{68F927E584EE1A75}" {
+   UserParamAlpha 0
+   ApplyPropertiesWhenMeshChanged 1
+  }
+  RigidBody "{68F927E584EE1A0A}" {
+   Mass 1.5
+   ModelGeometry 1
+   Static 1
+  }
+  BaseLoadoutClothComponent "{68F927E584EE1A01}" {
+   AreaType ZEL_EyesArea "{68F927E584EE1A06}" {
+   }
+   WornModel "{3BFDDCB3E81E0CDF}Assets/Characters/HeadGear/6b34/6b34_miniTape.xob"
+   WornMaterialsOverride {
+    "" "" "{DF8520748A54BE46}Assets/Characters/HeadGear/6b34/Data/goggles_green.emat"
+   }
+   ItemModel "{C10380E9A608DE95}Assets/Characters/HeadGear/6b34/6b34_miniTape_ITEM.xob"
+   ItemMaterialsOverride {
+    "" "" "{DF8520748A54BE46}Assets/Characters/HeadGear/6b34/Data/goggles_green.emat"
+   }
+  }
+  ActionsManagerComponent "{68F927E584EE1A1B}" {
+   ActionContexts {
+    UserActionContext "{68F927E584EE1A14}" {
+     ContextName "default"
+     Position PointInfo "{68F927E584EE1A28}" {
+     }
+    }
+   }
+   additionalActions {
+    SCR_EquipClothAction "{52E6EC76F51E12DE}" : "{83B98F1A96591AC6}Prefabs/Characters/Core/Actions/EquipClothAction.conf" {
+    }
+    SCR_PickUpItemAction "{52E6EC76F43FCD58}" : "{F39A4E9B190C1846}Prefabs/Characters/Core/Actions/PickUpItemAction.conf" {
+    }
+   }
+  }
+  RplComponent "{68F927E584EE1A22}" {
+   "Parent Node From Parent Entity" 0
+  }
+ }
+}

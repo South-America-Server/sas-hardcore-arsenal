@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{49CEFB21A8515584}Configs/EntityCatalog/ANYFACTION/Bacon M17Pistol/ANYFACTION Attachments - Pistol (M17 Bacon).conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

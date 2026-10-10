@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F35074675C0F2C4A}Configs/EntityCatalog/UC/Weapons/UC Weapons - Launchers (Reforger).conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

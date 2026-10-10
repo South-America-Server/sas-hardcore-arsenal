@@ -1,0 +1,10 @@
+GenericEntity {
+ ID "5AFC9B0D8792F4E2"
+ components {
+  SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+   m_iSupplies 500
+   m_iSuppliesMax 1000
+   m_fOperationalRadius 80
+  }
+ }
+}

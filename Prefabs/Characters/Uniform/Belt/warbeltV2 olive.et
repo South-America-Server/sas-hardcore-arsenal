@@ -1,0 +1,9 @@
+GenericEntity : "{F7DDB1EFC941BDFE}Prefabs/Characters/Uniform/Belt/warbeltV2 olive.et" {
+ ID "50E0B40D7407B664"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   AreaType ZEL_WaistArea "{5A68D3A67A86D88D}" {
+   }
+  }
+ }
+}

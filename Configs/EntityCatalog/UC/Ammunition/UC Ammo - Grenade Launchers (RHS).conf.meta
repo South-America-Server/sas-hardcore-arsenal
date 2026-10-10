@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{1D5C325DF7402F70}Configs/EntityCatalog/UC/Ammunition/UC Ammo - Grenade Launchers (RHS).conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

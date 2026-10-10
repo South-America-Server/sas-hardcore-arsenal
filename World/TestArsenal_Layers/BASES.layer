@@ -1,0 +1,57 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ ConflictMilitaryBase {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 20
+    m_bCanBeHQ 1
+   }
+  }
+  coords 159.397 1 113.451
+  {
+   CommentEntity {
+    coords 0 1 0
+    m_Comment "ConflictMilitaryBase: "\
+    "At least two bases need \"Can be HQ\" param checked. Place bases and control points wherever you wish."
+    m_Color 0 0 0
+    m_FaceCamera 1
+    m_TextBackground 1
+    m_BackgroundColor 1 0.6 0
+    m_BackgroundTransparency 0
+   }
+  }
+ }
+ ConflictMilitaryBase2 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 10
+    m_bCanBeHQ 1
+   }
+  }
+  coords 76.781 1 116.897
+  {
+   CommentEntity {
+    coords 0 1 0
+    m_Comment "ConflictMilitaryBase: "\
+    "At least two bases need \"Can be HQ\" param checked. Place bases and control points wherever you wish."
+    m_Color 0 0 0
+    m_FaceCamera 1
+    m_TextBackground 1
+    m_BackgroundColor 1 0.6 0
+    m_BackgroundTransparency 0
+   }
+  }
+ }
+}
+$grp GenericEntity : "{1BED8F81D2FA2137}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_AmmoStorage_S_US_01.et" {
+ {
+  coords 147.548 1 117.561
+  angles 0 -3.825 0
+ }
+ {
+  coords 93.326 1 118.095
+  angles 0 -4.711 0
+ }
+}
+GenericEntity : "{CD9004C6229D900B}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_AmmoStorage_S_USSR_01.et" {
+ coords 113.611 1 123.94
+}

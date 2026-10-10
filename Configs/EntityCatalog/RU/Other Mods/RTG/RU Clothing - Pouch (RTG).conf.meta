@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A5E4C182CD9A87BB}Configs/EntityCatalog/RU/Other Mods/RTG/RU Clothing - Pouch (RTG).conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

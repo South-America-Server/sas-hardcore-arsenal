@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A9E55FA2C85A4676}Prefabs/Characters/HeadGear/Helm/BTSH6Sapsan/BTSH6Sapsan_Oliva_High.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0245A6E94A2DA7C1}Configs/EntityCatalog/ANYFACTION/RealisticDrones/ANYFACTION Clothings - Backpack (Realistic Drones).conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

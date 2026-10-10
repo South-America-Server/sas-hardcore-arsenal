@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{601171B82B39E0A8}Configs/EntityCatalog/USSR/Other Mods/RTG/RU Weapon - Rifles (RTG Weapons).conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,8 @@
+GenericEntity : "{5E238C43D6B4961B}Prefabs/Characters/Vests/Vest_AACPC/attachment_ARSARma_GroinTriple_MC.et" {
+ ID "61F4B83F8A0E62E9"
+ components {
+  ColliderHistoryComponent "{68B422A3847FBE19}" {
+   Enabled 0
+  }
+ }
+}

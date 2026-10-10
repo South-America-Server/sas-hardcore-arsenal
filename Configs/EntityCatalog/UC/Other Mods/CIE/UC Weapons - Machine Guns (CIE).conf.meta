@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{64FE2B11D9B5B427}Configs/EntityCatalog/UC/Other Mods/CIE/UC Weapons - Machine Guns (CIE).conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

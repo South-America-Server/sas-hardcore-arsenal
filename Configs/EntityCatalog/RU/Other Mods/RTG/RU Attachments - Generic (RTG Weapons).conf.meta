@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5CB35C8E7082E4A0}Configs/EntityCatalog/RU/Other Mods/RTG/RU Attachments - Generic (RTG Weapons).conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

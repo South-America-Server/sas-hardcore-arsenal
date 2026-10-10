@@ -1,0 +1,10 @@
+GameEntity : "{BFCE7FE311985683}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_base.et" {
+ ID "50D4E2187B1C4408"
+ components {
+  InventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{6932CD2F75147486}" {
+    m_Size SLOT_1x1
+   }
+  }
+ }
+}

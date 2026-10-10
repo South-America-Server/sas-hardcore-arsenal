@@ -1,0 +1,30 @@
+Vehicle : "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.et" {
+ ID "5206D4E7C4A16F13"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{66AB731FF6BDF446}" {
+     SourceMaterial "Ural_Body"
+     AssignedMaterial "{6992F156F96C368A}Assets/RESKIN/Ural4320/Data/Ural_Body_RU.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 1000
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Radio {
+     Prefab "{D385AEFB12200C6C}Prefabs/MP/Campaign/Assets/CampaignMobileAssemblyCargoEast_RU.et"
+    }
+   }
+  }
+ }
+ coords 5.243 1.402 -1.17
+}

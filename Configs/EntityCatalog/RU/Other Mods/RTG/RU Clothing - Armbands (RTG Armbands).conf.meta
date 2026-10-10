@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C93C12A856C23BFD}Configs/EntityCatalog/USSR/Other Mods/RTG/RU Clothings - Armbands (RTG Armbands).conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F5089A45F0D7BA67}Configs/EntityCatalog/RU/Attachments/RU Attachments - Optics (Reforger).conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

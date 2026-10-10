@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B5F8A09411AD299B}Configs/EntityCatalog/UC/Attachments/UC Attachments - Suppressors (WCS).conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

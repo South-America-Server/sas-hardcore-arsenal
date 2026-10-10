@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{2C2939BE91012E03}Configs/EntityCatalog/USSR/Mods/Zentico/RU Ammo - Rifles (Zentico).conf.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

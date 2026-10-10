@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{7D4AEE1E65D52752}Configs/EntityCatalog/RU/Attachments/RU Attachments - Grips (WCS).conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

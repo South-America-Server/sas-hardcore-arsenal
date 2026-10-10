@@ -1,0 +1,64 @@
+GenericEntity : "{FDC0074A9D46125F}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_100rnd_PKM/Pouch_Soviet_100rnd_PKM_base.et" {
+ ID "51EAE4EBB3FF9591"
+ components {
+  MeshObject "{521AC04910AB9941}" {
+   Object "{C1794EFA528F5BA7}Assets/Characters/Vest/RatnikPounch/BackpackV2.xob"
+   Materials {
+    MaterialAssignClass "{68B422ADD51E7CCF}" {
+     SourceMaterial "M_Bacpack"
+     AssignedMaterial "{B102ECC95414D3E9}Assets/BackPack/Data/EMR/M_Bacpack_EMR.emat"
+    }
+    MaterialAssignClass "{68B422ADD51E7CDE}" {
+     SourceMaterial "Strap"
+     AssignedMaterial "{541F867FD1DE3741}Assets/BackPack/Data/EMR/Strap_EMR.emat"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{54FAC2B5C5043CAF}" {
+   Attributes SCR_ItemAttributeCollection "{54FAC2B53DB48324}" {
+    ItemDisplayName UIInfo "{54FAC2B53406EFF6}" {
+     Name "Тактический рюкзак Molle EMR"
+    }
+   }
+   MaxCumulativeVolume 3500
+   MaxItemSize 10 10 10
+   m_fMaxWeight 10
+  }
+  SCR_UniversalInventoryStorageComponent "{68B422ADD51E7CA6}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{68B422ADD51E7CA0}" {
+    ItemDisplayName UIInfo "{68B422ADD51E7CA2}" {
+     Name "Тактический рюкзак Molle EMR"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{68B422ADD51E7CAC}" {
+     Weight 0.4
+     SizeSetupStrategy Manual
+     ItemDimensions 15 15 15
+     ItemVolume 2000
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{68B422ADD51E7CA8}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 1.5
+      FOV 10
+     }
+    }
+    m_SlotType SLOT_BACKPACK
+   }
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 2000
+   MaxItemSize 15 15 15
+   m_fMaxWeight 7.5
+  }
+  BaseLoadoutClothComponent "{521AC04910AB9954}" {
+   AreaType LoadoutArmorRatnikBackSlotArea "{68B422ADD51E7CB5}" {
+   }
+   WornModel "{C1794EFA528F5BA7}Assets/Characters/Vest/RatnikPounch/BackpackV2.xob"
+   ItemModel "{EE4C9DAED55E1778}Assets/Characters/BackPack/Molly/Molly_Item.xob"
+   ItemMaterialsOverride {
+    "{B102ECC95414D3E9}Assets/BackPack/Data/EMR/M_Bacpack_EMR.emat" "{541F867FD1DE3741}Assets/BackPack/Data/EMR/Strap_EMR.emat"
+   }
+   DeflatedModel "{C1794EFA528F5BA7}Assets/Characters/Vest/RatnikPounch/BackpackV2.xob"
+  }
+ }
+}

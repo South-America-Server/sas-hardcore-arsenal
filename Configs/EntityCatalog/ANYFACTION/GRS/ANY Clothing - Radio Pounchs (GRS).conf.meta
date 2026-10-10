@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E6CC095E8C02D72D}Configs/EntityCatalog/ANYFACTION/GRS/ANY Clothing - Radio Pounchs (GRS).conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,10 @@
+GameEntity : "{B6694FC083A1BE1A}Prefabs/Characters/HeadGear/Helm/LshZ/Helmet_LshZ_BLK_Base.et" {
+ ID "50D4E2187B1C4408"
+ components {
+  ClothNodeStorageComponent "{65ED601F47C04841}" {
+   Attributes SCR_ItemAttributeCollection "{65ED601F47C04836}" {
+    m_Size SLOT_1x1
+   }
+  }
+ }
+}

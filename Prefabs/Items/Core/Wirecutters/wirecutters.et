@@ -1,0 +1,59 @@
+GenericEntity : "{C95E11C60810F432}Prefabs/Items/Core/Item_Base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName UIInfo "{697375ADB2F422F4}" {
+     Name "Wirecutters"
+     Description "Standard everyday pair of wirecutters, used to cut chain-link fences and barbed wire."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{697375ADB2F422FF}" {
+     Weight 0.15
+     SizeSetupStrategy Manual
+     ItemVolume 10
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{697375ADB2F422E2}" {
+     AnimationAttachments {
+      AnimationAttachmentInfo "{697375ADB2F422E5}" {
+       AnimGraph "{82906ACD75DF8523}Assets/Items/Equipment/workspaces/Flashlight_MX991.agr"
+       AnimInstance "{903E4A0B96B34B8F}Assets/Items/Equipment/workspaces/MX991_player.asi"
+       BindingName "Gadget"
+      }
+     }
+     HandAdditiveRotation 270 16 98.1
+     HandAdditiveTranslation -0.005 0.12 0
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{697375ADB2F422E9}" {
+      CameraPreset Top
+      CameraDistanceToItem 0.34
+     }
+     CharacterModifierAttributes "{697375ADB2F422EA}" {
+      Supress1hShooting 0
+     }
+    }
+    CommonItemType "FLASHLIGHT"
+    m_eQuickSlotSize SLOT_1x1
+    m_SlotType SLOT_VEST
+   }
+  }
+  MeshObject "{697375ADB2F422ED}" {
+   Object "{2DF3BF7B29A93115}Assets/Data/wirecuttermodel2.xob"
+  }
+  SCR_GadgetManagerComponent "{697375ADB2F422EF}" {
+  }
+  SCR_WirecutterComponent "{697375ADB2F46555}" {
+   m_eAnimVariable ADRIANOV
+   m_eUseMask 7
+  }
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   ActionContexts {
+    UserActionContext "{508AC2ABEC97066C}" {
+     Position PointInfo "{508AC2ABEAC4A0F5}" {
+      Offset 0 0.0144 0.0155
+     }
+    }
+   }
+  }
+ }
+}

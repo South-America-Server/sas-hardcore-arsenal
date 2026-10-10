@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{FFC5ABF8A851B4B6}Configs/EntityCatalog/UC/Other Mods/CIE/UC Clothings - Shirts Winter (CIE).conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

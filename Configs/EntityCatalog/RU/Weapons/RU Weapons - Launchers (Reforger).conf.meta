@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{72357626726C82A9}Configs/EntityCatalog/USSR/Weapons/RU Weapons - Launchers (Reforger).conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

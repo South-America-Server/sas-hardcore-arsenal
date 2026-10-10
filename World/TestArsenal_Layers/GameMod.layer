@@ -1,0 +1,63 @@
+SCR_MapEntity MapEntity1 : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
+ coords 142.849 1 118.634
+}
+SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 114.399 1 109.482
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "SCR_AIWorld: "\
+   "Configure navigation mesh"
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 114.399 1 108.482
+}
+SCR_GameModeCampaign GameMode_Campaign : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
+ coords 114.399 1 107.482
+}
+SCR_CampaignFactionManager CampaignFactionManager : "{F1AC26310BAE3788}Prefabs/MP/Campaign/CampaignFactionManager.et" {
+ coords 112.509 1 111.843
+ Factions {
+  SCR_CampaignFaction "{50B30C3AF4BFD934}" {
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{5C68A0E9AFE1E631}" : "{AC11437A0841F0C3}Configs/EntityCatalog/RU/InventoryItems_EntityCatalog_RU.conf" {
+    }
+   }
+  }
+  SCR_CampaignFaction "{50B30C3ADB052C80}" {
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{5C68A0EEB3F124F9}" : "{F82F6A0B757DCCB1}Configs/EntityCatalog/UC/InventoryItems_EntityCatalog_UC.conf" {
+    }
+   }
+  }
+ }
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "CampaignFactionManager: "\
+   "Make sure one faction is non-playable to use for Independent units."
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+SCR_LoadoutManager CampaignLoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
+ coords 114.399 1 112.482
+}
+GenericEntity : "{BCCAF6DAD47AA8C7}PrefabsEditable/Auto/Props/Furniture/E_Table_02.et" {
+ coords 113.281 1 119.504
+}
+GenericEntity : "{D999D546C90F1C09}PrefabsEditable/Auto/Props/Furniture/E_LightTable_01.et" {
+ coords 113.422 1.907 119.502
+ angles 0 -85.152 0
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{55F66A65E8A4EAD2}Prefabs/Characters/HeadGear/AFU Helmet MM14/AFU_Helmet_MM14_w_scrim_sh.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{01880FAD71639860}Configs/EntityCatalog/USSR/Throwables/RU Equipment - Stun (Bacon).conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

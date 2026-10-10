@@ -1,0 +1,73 @@
+GenericEntity : "{80C8C9227D2C7CF5}Prefabs/Characters/Core/Footwear_Base.et" {
+ ID "5244C46FA7C5E08C"
+ components {
+  InventoryItemComponent "{5244C46AD695742D}" {
+   Attributes SCR_ItemAttributeCollection "{68F927EA86817E1E}" {
+    ItemDisplayName UIInfo "{68F927EA86817E20}" {
+     Name "Lowa boots olive"
+     Description "#AR-Boots_JungleBoots_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{68F927EA86817E24}" {
+     Weight 1
+     SizeSetupStrategy Manual
+     ItemDimensions 15 15 15
+     ItemVolume 2500
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{68F927EA86817E38}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 2.5
+      FOV 10
+     }
+    }
+   }
+  }
+  MeshObject "{5244C34DEE7DBFB4}" {
+   Object "{BD95B961B9359FDF}Assets/Characters/Footwear/Lowa boots/Lowa_boots.xob"
+   Materials {
+    MaterialAssignClass "{68F927EA86817E32}" {
+     SourceMaterial "base"
+     AssignedMaterial "{12EA2E42F9EB23C6}Assets/Characters/Footwear/Lowa boots/Data/Oliva/base_green_2.emat"
+    }
+    MaterialAssignClass "{68F927EA86817E30}" {
+     SourceMaterial "cloth"
+     AssignedMaterial "{FF080446737FF4A4}Assets/Characters/Footwear/Lowa boots/Data/Oliva/cloth_green_2.emat"
+    }
+    MaterialAssignClass "{68F927EA86817E37}" {
+     SourceMaterial "cloth_inside"
+     AssignedMaterial "{33F9B0DD93A8888B}Assets/Characters/Footwear/Lowa boots/Data/Oliva/cloth_inside1.emat"
+    }
+    MaterialAssignClass "{68F927EA86817E35}" {
+     SourceMaterial "parts"
+     AssignedMaterial "{A596B2103FB65A58}Assets/Characters/Footwear/Lowa boots/Data/Oliva/parts_green_2.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5244C34DEE7DBFB2}" {
+   AreaType LoadoutBootsArea "{68F927EA86817FCA}" {
+   }
+   WornModel "{BD95B961B9359FDF}Assets/Characters/Footwear/Lowa boots/Lowa_boots.xob"
+   WornMaterialsOverride {
+    "{12EA2E42F9EB23C6}Assets/Characters/Footwear/Lowa boots/Data/Oliva/base_green_2.emat" "{A596B2103FB65A58}Assets/Characters/Footwear/Lowa boots/Data/Oliva/parts_green_2.emat" "{FF080446737FF4A4}Assets/Characters/Footwear/Lowa boots/Data/Oliva/cloth_green_2.emat" "{33F9B0DD93A8888B}Assets/Characters/Footwear/Lowa boots/Data/Oliva/cloth_inside1.emat"
+   }
+   ItemModel "{BD95B961B9359FDF}Assets/Characters/Footwear/Lowa boots/Lowa_boots.xob"
+   ItemMaterialsOverride {
+    "{12EA2E42F9EB23C6}Assets/Characters/Footwear/Lowa boots/Data/Oliva/base_green_2.emat" "{A596B2103FB65A58}Assets/Characters/Footwear/Lowa boots/Data/Oliva/parts_green_2.emat" "{FF080446737FF4A4}Assets/Characters/Footwear/Lowa boots/Data/Oliva/cloth_green_2.emat" "{33F9B0DD93A8888B}Assets/Characters/Footwear/Lowa boots/Data/Oliva/cloth_inside1.emat"
+   }
+   SoundInt 630
+   OverrideMeshesToHide {
+    "Foot_L" "Foot_R"
+   }
+  }
+  ActionsManagerComponent "{5244C34DEE7DBF9F}" {
+   ActionContexts {
+    UserActionContext "{5244C34DEE7DBF83}" {
+     Position PointInfo "{5244C34DEE7DBF80}" {
+      Offset 0 0.1 0
+     }
+    }
+   }
+  }
+ }
+ coords 0 0.058 0
+}

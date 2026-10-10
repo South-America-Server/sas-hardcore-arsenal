@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{70844E59A9278024}Configs/EntityCatalog/RU/Other Mods/RTG/RU Clothing - Suit (RTG).conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

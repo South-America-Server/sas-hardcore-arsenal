@@ -1,0 +1,59 @@
+GenericEntity : "{9713FE6DDCC9510D}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik.et" {
+ ID "50E0B40D7407B664"
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Object "{BC68F5436CFDEB91}Assets/Characters/Vest/TV110/GroinPouch/GroinV2.xob"
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB03D1147687}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB03CBA95936}" {
+    ItemDisplayName UIInfo "{5222CB03C0C44D6C}" {
+     Name "Chest Pouch MC"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.75
+     ItemVolume 1000
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{52BCBDD25D8B867D}" {
+      CameraDistanceToItem 1
+      PreviewWornModel 1
+     }
+    }
+    m_Size SLOT_1x1
+   }
+   MaxCumulativeVolume 500
+   MaxItemSize 5 5 5
+   m_fMaxWeight 2
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   AreaType LoadoutChestPouchSlotArea "{5A68D3A67A86D88D}" {
+   }
+   Slots {
+    LoadoutSlotInfo Canteen {
+     Enabled 0
+    }
+    LoadoutSlotInfo Etool {
+     Enabled 0
+    }
+    LoadoutSlotInfo Belt {
+     Enabled 0
+    }
+    LoadoutSlotInfo GrenadeBelt {
+    }
+   }
+   WornModel "{F2A2F533D478A51F}Assets/Characters/Vest/TV110/ChestPouch/chest_pouchV1.xob"
+   WornMaterialsOverride {
+    ""
+   }
+   ItemModel "{A82BB3C3A36770FE}Assets/Characters/Vest/TV110/ChestPouch/chest_pouch_Item.xob"
+   ItemMaterialsOverride {
+    ""
+   }
+   DepthFront 0
+   DepthLeft 0
+   DepthRight 0
+   DeflatedModel "{F2A2F533D478A51F}Assets/Characters/Vest/TV110/ChestPouch/chest_pouchV1.xob"
+  }
+ }
+}

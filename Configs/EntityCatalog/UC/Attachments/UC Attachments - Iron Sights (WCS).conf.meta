@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0BF64B42CD24D830}Configs/EntityCatalog/UC/Attachments/UC Attachments - Iron Sights (WCS).conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

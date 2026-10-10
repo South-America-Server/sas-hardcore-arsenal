@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{DC04F1B1B1F9DFD2}Configs/EntityCatalog/RU/Clothing/RU Clothing - Legs (RHS).conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

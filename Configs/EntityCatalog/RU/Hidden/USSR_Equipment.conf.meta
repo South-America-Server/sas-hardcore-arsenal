@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3B923A3A3FA5785B}Configs/EntityCatalog/RU/Hidden/USSR_Equipment.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

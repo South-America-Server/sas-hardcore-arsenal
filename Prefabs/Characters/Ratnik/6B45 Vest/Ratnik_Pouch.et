@@ -1,0 +1,45 @@
+GenericEntity : "{9713FE6DDCC9510D}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik.et" {
+ ID "50E0B40D7407B664"
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Object "{0281DDB78107D9B3}Assets/Characters/Uniforms/Ratnik/6B46/6B46_Pounch.xob"
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB03D1147687}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB03CBA95936}" {
+    ItemDisplayName UIInfo "{5222CB03C0C44D6C}" {
+     Name "#Ratnik_pouches"
+     Description "#DISC_Ratnik_pouches"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.75
+     ItemVolume 1000
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{52BCBDD25D8B867D}" {
+      PreviewWornModel 1
+     }
+    }
+   }
+   MaxCumulativeVolume 2800
+   m_fMaxWeight 18
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Canteen {
+     Enabled 0
+    }
+    LoadoutSlotInfo Etool {
+     Enabled 0
+    }
+    LoadoutSlotInfo Belt {
+     Enabled 0
+    }
+    LoadoutSlotInfo GrenadeBelt {
+    }
+   }
+   WornModel "{0281DDB78107D9B3}Assets/Characters/Uniforms/Ratnik/6B46/6B46_Pounch.xob"
+   ItemModel "{3CAA2A4C03F25EA1}Assets/Characters/Uniforms/Ratnik/6B45Vest/6B45_pouch_item.xob"
+   DeflatedModel "{0281DDB78107D9B3}Assets/Characters/Uniforms/Ratnik/6B46/6B46_Pounch.xob"
+  }
+ }
+}

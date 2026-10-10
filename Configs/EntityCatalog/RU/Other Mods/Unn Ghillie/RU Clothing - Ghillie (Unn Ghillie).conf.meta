@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B41E2C988495277F}Configs/EntityCatalog/Russian/Other Mods/Unn Ghillie/RU Clothings - Ghillie (Unn Ghillie).conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0C33C02B553FCBCB}Configs/EntityCatalog/UC/Other Mods/UA MM14 CAMMO AFU/UC Clothings - Shirts (UAMM14AFU).conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

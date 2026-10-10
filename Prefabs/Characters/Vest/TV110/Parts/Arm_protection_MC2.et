@@ -1,0 +1,64 @@
+GameEntity : "{1F816D1D2CF505B8}Prefabs/Characters/Vests/Vest_6B2/Vest_6B2_base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  InventoryItemComponent "{5B189416D721A6DE}" {
+   Attributes SCR_ItemAttributeCollection "{5B189416D721A6C7}" {
+    ItemDisplayName UIInfo "{5B189416D721A6C9}" {
+     Name "Arm protection Multicam"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5B189416D721A6CB}" {
+     Weight 1.35
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5B189416D721A6CC}" {
+      CameraPreset Right
+      CameraDistanceToItem 2
+     }
+     SCR_ArmoredClothItemData "{68B422A3AE722D9F}" {
+      m_aProtectedHitZones {
+       "RArm" "LArm"
+      }
+      m_eProtection CLASS_1
+      m_MaterialResourceName "{E5476D93B02A87F5}Common/Materials/Game/BodyArmor/GHOST_2A_class.gamemat"
+     }
+    }
+    m_Size SLOT_2x1
+    m_bStackable 0
+   }
+  }
+  MeshObject "{5312D798A817A294}" {
+   Object "{C24D21FDDBACB9B2}Assets/Characters/Vest/TV110/Arm_Armor.xob"
+  }
+  SCR_ArmorDamageManagerComponent "{68B422A3AE722D6D}" {
+   Enabled 0
+   "Additional hit zones" {
+    SCR_ArmorHitZone neck {
+     HZDefault 1
+     IgnoreExplosions 1
+     MaxHealth 60
+     DamageReduction 1
+     DamageThreshold 1
+     "Collision multiplier" 4
+     "Melee multiplier" 0.1
+     "Incendiary multiplier" 0
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   AreaType LoadoutArmorArmSlotArea "{68B422A3AE722D76}" {
+   }
+   WornModel "{C24D21FDDBACB9B2}Assets/Characters/Vest/TV110/Arm_Armor.xob"
+   WornMaterialsOverride {
+    "{DC595496EBF6410D}Assets/Characters/Vest/TV110/Data/Oliva/wasDCS_protections_sdr_2_2_2_2_2.emat"
+   }
+   ItemModel "{E839B9B530858E76}Assets/Characters/Vest/TV110/Arm_Armor_Item.xob"
+   ItemMaterialsOverride {
+    "{DC595496EBF6410D}Assets/Characters/Vest/TV110/Data/Oliva/wasDCS_protections_sdr_2_2_2_2_2.emat"
+   }
+   DepthFront 0
+   DepthLeft 0
+   DepthRight 0
+  }
+ }
+}

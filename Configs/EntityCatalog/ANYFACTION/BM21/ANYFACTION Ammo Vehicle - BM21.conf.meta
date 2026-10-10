@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{24FAC4DF6BF9BB54}Configs/EntityCatalog/ANYFACTION/Bacon M17Pistol/ANYFACTION Ammo Vehicle - BM21.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

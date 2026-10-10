@@ -1,0 +1,88 @@
+SCR_EntityCatalogMultiListEntry {
+ m_sIdentifier "Weapon Attachments"
+ m_aEntities {
+  SCR_EntityCatalogInventoryItem "{5C62F7DF5AE77809}" {
+   m_sEntityPrefab "{C850A33226B8F9C1}Prefabs/Weapons/Attachments/Optics/Scopes/Optic_PSO1/Optic_PSO1.et"
+   m_aEntityDataList {
+    SCR_ArsenalItem "{5C62F7DEBB8F5AF2}" {
+     m_eItemType WEAPON_ATTACHMENT
+     m_eItemMode ATTACHMENT
+     m_iSupplyCost 75
+     m_eRequiredRank SERGEANT
+    }
+   }
+  }
+  SCR_EntityCatalogInventoryItem "{605ECB2AF9F37DF5}" {
+   m_sEntityPrefab "{ACDF49FACD0701A8}Prefabs/Weapons/Attachments/Optics/Scopes/Optic_1P29/Optic_1P29.et"
+   m_aEntityDataList {
+    SCR_ArsenalItem "{605ECB2AE1BFBE86}" {
+     m_eItemType WEAPON_ATTACHMENT
+     m_eItemMode ATTACHMENT
+     m_iSupplyCost 35
+     m_eRequiredRank CORPORAL
+    }
+   }
+  }
+  SCR_EntityCatalogInventoryItem "{605ECB2E075A0DFE}" {
+   m_sEntityPrefab "{E5E9DBBF3BFB88C6}Prefabs/Weapons/Attachments/Optics/Optic_PGO7/Optic_PGO7V3.et"
+   m_aEntityDataList {
+    SCR_ArsenalItem "{605ECB2E789DEFEA}" {
+     m_eItemType WEAPON_ATTACHMENT
+     m_eItemMode ATTACHMENT
+     m_iSupplyCost 35
+     m_eRequiredRank SERGEANT
+    }
+   }
+  }
+  SCR_EntityCatalogInventoryItem "{609C981C783E69E4}" {
+   m_sEntityPrefab "{1ABABE3551512B0A}Prefabs/Weapons/Attachments/Underbarrel/UGL_GP25.et"
+   m_aEntityDataList {
+    SCR_ArsenalItem "{609C981C61EE4D7D}" {
+     m_eItemType WEAPON_ATTACHMENT
+     m_eItemMode ATTACHMENT
+     m_iSupplyCost 35
+    }
+   }
+  }
+  SCR_EntityCatalogInventoryItem "{60E6CCC03D00E7CA}" {
+   m_sEntityPrefab "{98C79F5FAE12F9B6}Prefabs/Weapons/Attachments/Bayonets/Bayonet_6Kh4.et"
+   m_aEntityDataList {
+    SCR_ArsenalItem "{60A8A269E0102C53}" {
+     m_eItemType WEAPON_ATTACHMENT
+     m_eItemMode ATTACHMENT
+     m_iSupplyCost 0
+    }
+   }
+  }
+  SCR_EntityCatalogInventoryItem "{619AC1D98559AC65}" {
+   m_sEntityPrefab "{4A815EB8B824974A}Prefabs/Weapons/Attachments/Muzzle/FlashHider_AK74/FlashHider_AK74.et"
+   m_aEntityDataList {
+    SCR_ArsenalItem "{619AC1D98F8DF4A6}" {
+     m_eItemType WEAPON_ATTACHMENT
+     m_eItemMode ATTACHMENT
+     m_iSupplyCost 0
+    }
+   }
+  }
+  SCR_EntityCatalogInventoryItem "{619AC1D9865B0B0D}" {
+   m_sEntityPrefab "{06D4C36A6D585275}Prefabs/Weapons/Attachments/Muzzle/FlashHider_AKS74u/FlashHider_AKS74u.et"
+   m_aEntityDataList {
+    SCR_ArsenalItem "{619AC1D9FC32711D}" {
+     m_eItemType WEAPON_ATTACHMENT
+     m_eItemMode ATTACHMENT
+     m_iSupplyCost 0
+    }
+   }
+  }
+  SCR_EntityCatalogInventoryItem "{619AC1D98880569B}" {
+   m_sEntityPrefab "{3B96FAC169E27037}Prefabs/Weapons/Attachments/Muzzle/Suppressor_PBS4/Suppressor_PBS4.et"
+   m_aEntityDataList {
+    SCR_ArsenalItem "{619AC1D9EBD32B2B}" {
+     m_eItemType WEAPON_ATTACHMENT
+     m_eItemMode ATTACHMENT
+     m_eRequiredRank SERGEANT
+    }
+   }
+  }
+ }
+}

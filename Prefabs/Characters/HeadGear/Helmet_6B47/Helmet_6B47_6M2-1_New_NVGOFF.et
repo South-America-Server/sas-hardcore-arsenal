@@ -1,0 +1,35 @@
+GameEntity : "{5F71AB03597B3D25}Prefabs/Characters/HeadGear/Helmet_6B47/Helmet_6B47.et" {
+ ID "50D485E1435D6C72"
+ components {
+  RHS_HelmetNodeStorageComponent "{5DB13C5777E6E695}" {
+   Attributes SCR_ItemAttributeCollection "{5DB13C5760610D64}" {
+    ItemDisplayName UIInfo "{5DB13C575E2AFE37}" {
+     Name "#RHS-Headgear_6B476M21_Name"
+    }
+   }
+  }
+  SCR_HeadgearInventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{5244E4431DA56D64}" {
+    ItemDisplayName UIInfo "{5DB13C575E2AFE37}" {
+     Name "#RHS-Headgear_6B476M21_Name"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Prefab "{9C030889E9A05770}Prefabs/Characters/Eyewear/npp_strelok/Eyewear_npp_strelok.et"
+    }
+    RHS_LoadoutSlotInfo Masks {
+     Prefab "{A45F7EDA4D4BAE94}Prefabs/Characters/Ratnik/Balaclava/Ratnik_Balaclava_EMR.et"
+    }
+    RHS_LoadoutSlotInfo NVG {
+    }
+    RHS_LoadoutSlotInfo Headset {
+     Prefab "{150CBCB5E706F291}Prefabs/Characters/HeadGear/Headphones_6M2/Headphones_6M2-1.et"
+    }
+   }
+  }
+ }
+ coords 2.349 1.463 1.923
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{7E0398857E3AB80C}Configs/EntityCatalog/UC/Clothing/UC Clothings - Helmets (AUS).conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

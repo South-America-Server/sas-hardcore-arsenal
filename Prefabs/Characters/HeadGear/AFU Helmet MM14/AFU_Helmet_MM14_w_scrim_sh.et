@@ -1,0 +1,39 @@
+GameEntity : "{FE5C49069C2499D9}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_cover.et" {
+ ID "50D49DC5BC0CD17E"
+ components {
+  InventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{66C315CC7261BB9C}" {
+    ItemDisplayName UIInfo "{66C315CC7261B81B}" {
+     Name "AFU MM14 Helmet (Scrim)"
+     Description "Standard  helmet in Ukrainian MM14 camo, provide some ballistic protection."
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{66C315CC7261B867}" {
+      PreviewPrefab "{145D1058E4D75808}Prefabs/Characters/HeadGear/AFU Helmet MM14/AFU_Helmet_MM14_w_scrim_item.et"
+     }
+    }
+   }
+  }
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{FAF1C9480CEC12E1}Assets/Characters/HeadGear/Helmet_PASGT/Helmet_PASGT_01_scrim_Item.xob"
+   Materials {
+    MaterialAssignClass "{66C315CC7261B861}" {
+     SourceMaterial "Helmet_PASGT_01_cover"
+     AssignedMaterial "{B547FC59BC429511}Assets/Characters/HeadGear/AFU_Helmet_MM14/data/AFU_Helmet_MM14.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Prefab "{E56D7DC762053E15}Prefabs/Characters/Eyewear/Ballistic Glasses/Ballistic_Glasses_Coyote.et"
+    }
+    RHS_LoadoutSlotInfo Masks {
+     Prefab "{244A6A1121439AAD}Prefabs/Characters/HeadGear/Balaclava/Balaclava_MC.et"
+    }
+   }
+   WornModel "{FAA8678C1294827F}Prefabs/Characters/HeadGear/AFU Helmet MM14/AFU_Helmet_MM14_w_scrim_wear.et"
+   ItemModel "{145D1058E4D75808}Prefabs/Characters/HeadGear/AFU Helmet MM14/AFU_Helmet_MM14_w_scrim_item.et"
+  }
+ }
+}

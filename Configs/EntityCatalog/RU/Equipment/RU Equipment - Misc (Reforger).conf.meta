@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{420CC36F7806042A}Configs/EntityCatalog/RU/Equipment/RU Equipment - Misc (Reforger).conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

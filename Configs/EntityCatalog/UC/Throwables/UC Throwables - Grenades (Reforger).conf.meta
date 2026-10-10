@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5A47E8B682C44D88}Configs/EntityCatalog/UC/Throwables/UC Throwables - Grenades (Reforger).conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,10 @@
+GameEntity : "{AA3D15FAFAA6E33D}Prefabs/Characters/Ratnik/Helmet/Helmet_6B47_Close_Tape.et" {
+ ID "50D4E2187B1C4408"
+ components {
+  ClothNodeStorageComponent "{65F6BAF026881E4B}" {
+   Attributes SCR_ItemAttributeCollection "{65F6BAF026881E34}" {
+    m_Size SLOT_1x1
+   }
+  }
+ }
+}

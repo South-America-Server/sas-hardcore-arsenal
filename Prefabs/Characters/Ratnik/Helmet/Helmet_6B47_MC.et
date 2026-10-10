@@ -1,0 +1,10 @@
+GameEntity : "{813709864E96B61E}Prefabs/Characters/Ratnik/Helmet/Helmet_6B47_MC.et" {
+ ID "50D4E2187B1C4408"
+ components {
+  ClothNodeStorageComponent "{68688977D649A4A5}" {
+   Attributes SCR_ItemAttributeCollection "{68688977D649A486}" {
+    m_Size SLOT_1x1
+   }
+  }
+ }
+}

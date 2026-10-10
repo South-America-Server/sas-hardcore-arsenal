@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{CC03E53BEFDE0C84}Configs/EntityCatalog/UC/Ammunition/UC Ammo - Carbines (WCS).conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

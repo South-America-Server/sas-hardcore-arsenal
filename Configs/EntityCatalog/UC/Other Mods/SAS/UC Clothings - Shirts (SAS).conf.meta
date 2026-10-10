@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4135F847B7E43B59}Configs/EntityCatalog/UC/Other Mods/SAS/UC Clothings - Shirts (SAS).conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

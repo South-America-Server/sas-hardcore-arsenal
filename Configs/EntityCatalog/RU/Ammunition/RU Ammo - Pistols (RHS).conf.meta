@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9D9AD46E43C6B373}Configs/EntityCatalog/RU/Ammunition/RU Ammo - Pistols (RHS).conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

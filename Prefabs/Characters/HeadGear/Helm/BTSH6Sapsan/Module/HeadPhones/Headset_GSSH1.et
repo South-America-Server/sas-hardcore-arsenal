@@ -1,0 +1,71 @@
+GameEntity : "{8A2B2A544F3ED831}Prefabs/Characters/HeadGear/Helmets/Helmet_PASGT/Helmet_PASGT_01_base.et" {
+ ID "50D485E1435D6C72"
+ components {
+  InventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{68F927E5825453F2}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{68F927E582545382}" {
+     Name "ГСШ-01 6М2"
+     Description ""
+     m_aItemHints {
+      SCR_InventoryItemHintUIInfo "{68F927E582545384}" {
+       Name "Chehol LshZ"
+      }
+     }
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{68F927E58254539F}" {
+     Weight 0.1
+     ItemDimensions 5 2 5
+     ItemVolume 50
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{68F927E58254539C}" {
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.25
+      FOV 60
+      PreviewWornModel 1
+     }
+    }
+    m_Size SLOT_1x1
+    m_SlotType SLOT_ANY
+   }
+  }
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{04571707D57A31F0}Assets/Equipment/HeadPhones/GSH1.xob"
+  }
+  SCR_ItemOutfitFactionComponent "{618AD7BB075F1045}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8D96650B5696D}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{61A8D96650441EDE}" {
+      m_AffiliatedFactionKey "USSR"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   AreaType LoadoutHeadPhonesArea "{5A68DCDCC87D9EB5}" {
+   }
+   Slots {
+    LoadoutSlotInfo Goggles {
+     Enabled 0
+    }
+    LoadoutSlotInfo MeshCover {
+     Enabled 0
+    }
+    LoadoutSlotInfo NVG {
+     Enabled 0
+    }
+   }
+   WornModel "{04571707D57A31F0}Assets/Equipment/HeadPhones/GSH1.xob"
+   ItemModel "{D165250717B09C6F}Assets/Equipment/HeadPhones/GSH1_Item.xob"
+  }
+  ActionsManagerComponent "{5112706CD4157AC9}" {
+   ActionContexts {
+    UserActionContext "{5112706CD4157AF3}" {
+     Position PointInfo "{5112706CD4157AF0}" {
+      Offset 0 0 0
+     }
+    }
+   }
+  }
+ }
+}

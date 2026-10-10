@@ -1,0 +1,23 @@
+SCR_EditorModeEntity : "{E56F54E533ACE527}Prefabs/Editor/Modes/EditorModeBase.et" {
+ ID "54F0A77282A3AA3B"
+ components {
+  SCR_PlacingEditorComponent "{5145484399BAA2E7}" {
+   m_Registries {
+    SCR_PlaceableEntitiesRegistry "{6904F61BDCDCD94E}" {
+     m_sAddon "SAS_Factions_UC"
+     m_sSourceDirectory "{BE2D9FC1ECA53578}Prefabs/Characters/Factions/BLUFOR/UC_Army"
+     m_Prefabs {
+      "{C82DFCFEC982C052}Prefabs/Characters/Factions/BLUFOR/UC_Army/Character_UC_Randomized.et"
+     }
+    }
+    SCR_PlaceableEntitiesRegistry "{6904F61F7A71365B}" {
+     m_sAddon "SAS_Factions_RU"
+     m_sSourceDirectory "{DCE11D3D4F9BC131}Prefabs/Characters/Factions/OPFOR/RU_Army"
+     m_Prefabs {
+      "{1C18532E9D1709CA}Prefabs/Characters/Factions/OPFOR/RU_Army/Character_RU_Randomized.et"
+     }
+    }
+   }
+  }
+ }
+}

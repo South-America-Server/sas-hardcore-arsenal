@@ -1,0 +1,28 @@
+GenericEntity : "{39DD395970ED5630}Prefabs/Items/Equipment/Backpacks/Backpack_Rush12/Backpack_Rush12_base.et" {
+ ID "511E9C6ADE70F798"
+ components {
+  MeshObject "{511E9C6ADE70F7BD}" {
+   Materials {
+    MaterialAssignClass "{68F927E558D9CC15}" {
+     SourceMaterial "511rush"
+     AssignedMaterial "{4A16F6939AC7D923}Assets/Items/Equipment/Backpacks/Backpack_Rush12/Data/Backpack_Rush12_Olive.emat"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB03A40528FA}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB039E9715D1}" {
+    ItemDisplayName UIInfo "{5222CB03904B414C}" {
+     Name "#WCS-Backpack_Rush12_Name - #WCS-Camo_Olive"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{511E9C6ADE70F7BB}" {
+   WornMaterialsOverride {
+    "{4A16F6939AC7D923}Assets/Items/Equipment/Backpacks/Backpack_Rush12/Data/Backpack_Rush12_Olive.emat"
+   }
+   ItemMaterialsOverride {
+    "{4A16F6939AC7D923}Assets/Items/Equipment/Backpacks/Backpack_Rush12/Data/Backpack_Rush12_Olive.emat"
+   }
+  }
+ }
+}

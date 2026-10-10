@@ -1,0 +1,102 @@
+GameEntity : "{1F816D1D2CF505B8}Prefabs/Characters/Vests/Vest_6B2/Vest_6B2_base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  ClothNodeStorageComponent "{68B422A3BC269E88}" {
+   Attributes SCR_ItemAttributeCollection "{68B422A3BC269E9D}" {
+    ItemDisplayName UIInfo "{68B422A3BC269E9F}" {
+     Name "#TV110_MC"
+     Description "#DISC_TV110"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{68B422A3BC269E9A}" {
+     Weight 1.4
+     SizeSetupStrategy Manual
+     ItemDimensions 20 20 20
+     ItemVolume 2500
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{68B422A3BC269E64}" {
+      CameraDistanceToItem 3.7
+      FOV 10
+      PreviewWornModel 1
+     }
+     SCR_ArmoredClothItemData "{68B422A3BC269E67}" {
+      m_aProtectedHitZones {
+       "chest"
+      }
+      m_aProtectedDamageTypes {
+       MELEE KINETIC FRAGMENTATION EXPLOSIVE
+      }
+      m_eProtection CLASS_1
+     }
+    }
+    m_Size SLOT_2x2
+   }
+   Priority 150
+   StoragePurpose 0x40 0x1
+   UseCapacityCoefficient 0
+   MaxItemSize 1 1 1
+  }
+  InventoryItemComponent "{5B189416D721A6DE}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{5B189416D721A6C7}" {
+   }
+  }
+  MeshObject "{5312D798A817A294}" {
+   Object "{07BF0A7500E7B88F}Assets/Characters/Vest/TV110/PlitnikV1.xob"
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo FrontPlate {
+     AreaType LoadoutFrontPlate5AArea "{68B422A3BC269E6A}" {
+     }
+    }
+    LoadoutSlotInfo BackPlate {
+     AreaType LoadoutBackPlate5AArea "{68B422A3BC269E75}" {
+     }
+    }
+    LoadoutSlotInfo LeftPlate {
+     AreaType LoadoutLeftPlate5AArea "{68B422A3BC269E76}" {
+     }
+    }
+    LoadoutSlotInfo RightPlate {
+     AreaType LoadoutRightPlate5AArea "{68B422A3BC269E77}" {
+     }
+    }
+    LoadoutSlotInfo NeckProtection {
+     AreaType LoadoutNeckVestSlotArea "{68B422A3BC269E71}" {
+     }
+    }
+    LoadoutSlotInfo ArmProtection {
+     AreaType LoadoutArmorArmSlotArea "{68B422A3BC269E73}" {
+     }
+    }
+    LoadoutSlotInfo GroinProtection {
+     AreaType LoadoutNapashnikVestSlotArea "{68B422A3BC269E7C}" {
+     }
+    }
+    FORTEX_PatchSlot Patch {
+     PivotID "Spine5"
+     Offset 0.0001 0.1995 0.1441
+     Angles 6.7855 -2.4297 0
+     Enabled 0
+     Prefab "{D4527218697E9E3D}Prefabs/Items/Patch/RTG patches/Patch_FORTEX_RECTANGLE_WG.et"
+     AreaType LoadoutPatchArea "{68B422A3BC269E43}" {
+     }
+    }
+    LoadoutSlotInfo Tape {
+     AreaType LoadoutTapeTV110Area "{68B422A3BC269E4D}" {
+     }
+    }
+   }
+   WornModel "{07BF0A7500E7B88F}Assets/Characters/Vest/TV110/PlitnikV1.xob"
+   WornMaterialsOverride {
+    "{C743A448D044953B}Assets/Characters/Vest/TV110/Data/MC/wasDCS_vest_sdr_2_2_2.emat" "" ""
+   }
+   ItemModel "{7A7ADE7A2B9769BF}Assets/Characters/Vest/TV110/PlitnikV1_ITEM.xob"
+   ItemMaterialsOverride {
+    "{C743A448D044953B}Assets/Characters/Vest/TV110/Data/MC/wasDCS_vest_sdr_2_2_2.emat" ""
+   }
+  }
+ }
+ coords -0.009 0 0
+}

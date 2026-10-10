@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{AB176E17C3A14708}Configs/EntityCatalog/UC/Clothing/UC Clothing - Handwear (RHS).conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

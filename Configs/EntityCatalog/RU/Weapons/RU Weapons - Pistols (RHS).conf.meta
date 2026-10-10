@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5C794D48DE1CFB79}Configs/EntityCatalog/USSR/Weapons/RU Weapons - Pistols (RHS).conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

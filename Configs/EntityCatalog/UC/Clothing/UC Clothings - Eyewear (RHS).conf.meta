@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0BA4C67B4ECEB1AD}Configs/EntityCatalog/UC/Clothing/UC Clothing - Eyewear (RHS).conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{10C95FBC59DED66F}Configs/EntityCatalog/ANYFACTION/GRS/ANY Clothing - Pistol Pounchs (GRS).conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

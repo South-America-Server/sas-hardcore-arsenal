@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4BD4C86D569179CB}Configs/EntityCatalog/ANYFACTION/GRS/ANY Clothing - Belt Fanny Pack (GRS).conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

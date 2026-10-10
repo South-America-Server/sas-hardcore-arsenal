@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{69592F05EBD64C80}Configs/EntityCatalog/ANYFACTION/GRS/ANY Clothing - AR Pounchs (GRS).conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}
