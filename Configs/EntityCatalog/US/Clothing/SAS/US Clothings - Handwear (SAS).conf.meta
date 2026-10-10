@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{1AB3586D085746B8}Configs/EntityCatalog/US/Clothing/SAS/US Clothings - Handwear (SAS).conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

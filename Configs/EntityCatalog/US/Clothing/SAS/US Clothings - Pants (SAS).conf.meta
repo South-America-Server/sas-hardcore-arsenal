@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{199F8EC2FD243D7C}Configs/EntityCatalog/US/Clothing/SAS/US Clothings - Pants (SAS).conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

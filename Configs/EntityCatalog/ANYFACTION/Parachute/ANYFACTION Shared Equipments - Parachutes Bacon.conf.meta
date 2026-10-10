@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{795D62BBD167B226}Configs/EntityCatalog/ANYFACTION/Parachute/ANYFACTION Shared Equipments - Parachutes Bacon.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}
