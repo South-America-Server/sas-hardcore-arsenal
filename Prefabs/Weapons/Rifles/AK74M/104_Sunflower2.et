@@ -1,0 +1,23 @@
+GenericEntity : "{E5643CFA1828936C}Prefabs/Weapons/Rifles/AK74M/Rifle_AK104_b30_b31s_b33_pt1_rk3_FDE.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{66711C539C1AD1A8}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{6564A224D6224896}" {
+      Enabled 0
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{4E2B66CBA589F625}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

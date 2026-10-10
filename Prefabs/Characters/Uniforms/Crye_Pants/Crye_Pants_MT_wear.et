@@ -1,8 +1,0 @@
-GenericEntity {
- ID "68B422A32EE0424A"
- components {
-  MeshObject "{68B422A32EE04259}" {
-   Object "{F47C4070E9CAF94F}Assets/Characters/Uniforms/Pants_VKPO/rhs_triada_combat_pants.xob"
-  }
- }
-}

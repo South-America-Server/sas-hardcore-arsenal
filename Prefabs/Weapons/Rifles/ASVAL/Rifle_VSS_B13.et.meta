@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{2D1B2ACFF7373C2F}Prefabs/Weapons/Rifles/ASVAL/Rifle_VSS_B13.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

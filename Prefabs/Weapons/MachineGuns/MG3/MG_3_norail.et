@@ -1,0 +1,22 @@
+GenericEntity : "{D53DB74E64A19968}Prefabs/Weapons/MachineGuns/MG3/MG_3.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{2CD6B0E75BCF15FF}Assets/MG3_norail.xob"
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     components {
+      AttachmentSlotComponent "{64AD3CF92D17DD42}" {
+       Enabled 0
+       AttachmentSlot InventoryStorageSlot supressor {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

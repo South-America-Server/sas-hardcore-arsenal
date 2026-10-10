@@ -1,0 +1,213 @@
+GenericEntity : "{3FB5275A6505B323}Prefabs/Weapons/Rifles/M14/Rifle_M21_base.et" {
+ ID "5254ACCA959048B9"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{A84D9F22F2C0D9CE}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Rifle_WoodMetal.acp" "{68E023371FDD3B12}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Rifle_WoodMetal.acp" "{66E74C5A23D6C8A0}Sounds/Weapons/HeavyWeapons/KPVT/Weapons_HeavyWeapons_KPVT_Shot.acp" "{BCABC6991691B8FB}Sounds/Weapons/Rifles/Alligator/Weapons_Rifles_Snipex_Handling.acp" "{332983CC95EE1E1E}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Rifle.acp" "{D8F675F3468362E2}Sounds/Weapons/_SharedData/Weapons_Sights_Actions.acp" "{10C1421961C34D26}Sounds/Weapons/_SharedData/Weapons_Deployment.acp" "{8B147383E4D25429}Sounds/Weapons/Rifles/Alligator/Weapons_Rifles_Alligator_Shot_Suppressed_SuperSonic.acp"
+   }
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{9A4C179A7340B242}Assets/Snipex_Aligator.xob"
+  }
+  ProcAnimComponent "{6A697CAED1A5D891}" {
+   Parameters {
+    ProcAnimParams "{6A697CAED1A5D89D}" {
+     ResourceName "{D0B06D016567824B}proc/bipod_lev_Aligator.pap"
+     BoneNames {
+      "w_bipodleg_left_IK" "w_bipodleg_right_IK"
+     }
+    }
+   }
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "Snipex Alligator 14.5x114mm"
+     Description "The Snipex Alligator is a Ukrainian large-caliber sniper rifle chambered for the 14.5×114 mm round. It is designed to engage armored targets, vehicles, and fortifications at long distances."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 29
+     ItemVolume 3000
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{5284960E1D29F45C}" {
+     AnimationIKPose "{B8B9AB21EA2B849D}Assets/workspaces/p_rlf_Snipex_ik.anm"
+    }
+    CustomAttributes {
+     AimingModifierAttributes "{566C7D15A071B88E}" {
+      DeploymentPoints {
+       PivotPointInfoItem "{5A88E65A75DEDF19}" {
+        "Point info" DeploymentPointInfo deployment {
+         PivotID "Scene_Root"
+         Offset 0 0.014 0.4954
+        }
+        StabilizationSize 0.07 0.15 0.4
+       }
+       PivotPointInfoItem "{6A697CAED1A5D967}" {
+        "Point info" DeploymentPointInfo bipod {
+         PivotID "Scene_Root"
+         Offset 0 0.092 0.6144
+        }
+        SystemIdentifier 2
+        StabilizationPoints {
+         DeploymentPointInfo bipodl {
+          PivotID "w_bipodleg_left_IK"
+         }
+         DeploymentPointInfo bipodr {
+          PivotID "w_bipodleg_right_IK"
+         }
+        }
+        StabilizationSize 0.05 0.1 0.55
+       }
+      }
+     }
+     PreviewRenderAttributes "{52BAB5E48C906DB8}" {
+      CameraDistanceToItem 1.9
+     }
+    }
+   }
+  }
+  SCR_WeaponStatsManagerComponent "{6A697CAED1A5D96F}" {
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5472D21A19B61CDF}" {
+     AttachmentSlot InventoryStorageSlot Scope {
+      Prefab "{B461065DD235D48B}Prefabs/Weapons/Attachments/Optic/SnipeX Galaxy G36 6-24x55.et"
+      InspectionWidgetOffset 0 0.146 0.088
+     }
+     AttachmentType AttachmentOpticsRIS1913 "{58E2BCF93BDCA8BA}" {
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{6A697CAED1A5D977}" {
+       AttachmentSlot InventoryStorageSlot muzzlw {
+        PivotID "barrel_muzzle"
+        ChildPivotID "snap_weapon"
+        Prefab "{DD06409FA6946E26}Prefabs/Weapons/Attachments/Muzzle/FlashHider/FlashHider_Alligator.et"
+        InspectionWidgetOffset 0 0.0857 1.2764
+       }
+       AttachmentType AttachmentMuzzleSnipex_145 "{6A697CAED1A5D971}" {
+       }
+       ShowInInspection 1
+      }
+      CaseEjectingEffectComponent "{5122AAD190FCA21D}" {
+       ParticleEffect "{41C97715F7A4B853}Particles/Weapon/Casing_145x114.ptc"
+      }
+      CaseEjectingEffectComponent "{54ACE71283EC783A}" {
+       ParticleEffect "{6C91B7E8EF31E8AE}Particles/Weapon/Smoke_KPVT.ptc"
+      }
+      SCR_MuzzleEffectComponent "{C9B3271BB22CDB68}" {
+       ParticleEffect "{254588526C5E861A}Particles/Weapon/Muzzle_KPVT.ptc"
+      }
+     }
+     FireModes {
+      BaseFireMode "{B80A64F4A8EF8333}" {
+       ManualAction 1
+      }
+     }
+     MagazineWell MagazineWellAlligator "{52D8E2D6B49EF12E}" {
+     }
+     DispersionDiameter 0.4
+     DispersionRange 1500
+     WeaponAimModifiers {
+      SwayWeaponAimModifier "{521AE9A27BDC1E6F}" {
+       "Linear Damping" 0.1 0.1 0.1
+       "Linear Magnitude" 2
+       "Angular Damping" 0.1 0.1 0.1
+       "Angular Magnitude" 2
+       "Stamina Magnitude Curve" {
+        0 1 0.289 0.867 0.567 0.699 0.727 0.523 0.864 0.309 1 0.087
+       }
+       "Stamina Scale Mins" 1 1 0
+       "Stamina Scale Maxs" 2 2 0
+       "Angular Inertia Magnitude" 3 3 5
+       "Angular Inertia Magnitude ADS" 3 1.5 5
+       "Lower Speed" 2
+       DeploymentMultiplier 0.05
+      }
+      RecoilWeaponAimModifier "{58C899E212CAEAAC}" : "{0E6B74D9C265E140}Prefabs/Weapons/Core/Recoil/Rifle_LongRange_762_recoil.conf" {
+       LinearData RecoilData "{58C899E2064B3F06}" {
+        "Base Recoil Scale" 1
+        "OneHand Scale" 1
+       }
+       AngularData RecoilData "{58C899E2064B3F15}" {
+        "Base Recoil Scale" 2
+       }
+       TurnOffsetData RecoilData "{58C899E2064B3F16}" {
+        "Curve X" {
+         0 0.461 1 0.519
+        }
+        "Curve Z" {
+         0 0.529 1 0.503
+        }
+        "Curve Magnitudes" 0 1 0
+        "Curve Mins" 0 35 0
+        "Curve Maxs" 0 45 0
+        "Base Recoil Scale" 3
+        "Move Recoil Scale" 1
+       }
+      }
+      ZeroingWeaponAimModifier "{6A697CAED1A5D947}" {
+      }
+     }
+     "LEFT HAND TARGET" DeploymentPointInfo lht {
+      PivotID "slot_magazine"
+      Offset -0.1046 -0.079 -0.2205
+      Angles 0 -90 90
+     }
+     RIGHT_HAND_TARGET DeploymentPointInfo rht {
+      Offset 0 0 0
+     }
+     BUTSTOCK_TRANSFORMATION DeploymentPointInfo bt {
+      Offset 0 0.0328 -0.3555
+     }
+     MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
+      InspectionWidgetOffset 0 0 0.1043
+     }
+     MagazineTemplate "{A433BB02CCF31228}Prefabs/Weapons/Magazines/Magazine_145x114_IAI_Alligator_5rnd.et"
+    }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     AnimGraph "{D5D6F65B1CF3D6E4}Assets/workspaces/SnipeX.agr"
+     AnimInstance "{E370859D540936E9}Assets/workspaces/SnipeX_weapon.asi"
+     AnimInjection AnimationAttachmentInfo "{532F3A9CB912F2BA}" {
+      AnimGraph "{D5D6F65B1CF3D6E4}Assets/workspaces/SnipeX.agr"
+      AnimInstance "{182E14ACCC085205}Assets/workspaces/SnipeX_player.asi"
+     }
+     BindWithInjection 0
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "SnipeX Alligator"
+    Description "SnipeX Alligator 14.5mm"
+   }
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   ActionContexts {
+    UserActionContext "{5956E32BAAADE657}" {
+     Position PointInfo "{5956E329E6B11261}" {
+      PivotID "w_bipodL"
+      Offset 0.1074 -0.0468 0.5462
+      Angles 0 180 0
+     }
+    }
+    UserActionContext "{6A697CAED1A5D955}" {
+     ContextName "bipod lvl"
+     Position PointInfo "{6A697CAED1A5D954}" {
+      PivotID ""
+      Offset 0.035 0.042 0.4532
+      Angles 0 -140.972 0
+     }
+    }
+   }
+   additionalActions {
+    SCR_AdjustSignalAction "{68457DEF0AF986E6}" : "{D5AA7CF0F4671F89}Configs/bipod.conf" {
+     ParentContextList {
+      "bipod lvl"
+     }
+    }
+   }
+  }
+ }
+ coords 0 0 0
+}

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{E379045ACEE00E14}Configs/EntityCatalog/USSR/Clothing/FORTEX/FORTEX - POUCHES.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+  CONFResourceClass Xbox : PC {
+  }
+ }
+}

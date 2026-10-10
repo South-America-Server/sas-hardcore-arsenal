@@ -1,0 +1,14 @@
+GenericEntity : "{F9E6107C47C1B088}Prefabs/Weapons/Core/LongRangeRifle_Base.et" {
+ ID "5260C45AAAA407F4"
+ components {
+  FORTEX_CustomWeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{66DCE8E2EDCA4A66}" {
+     AttachmentSlot InventoryStorageSlot Optics {
+      Prefab "{5EBD8A3F114B08DD}Prefabs/Weapons/Attachments/Optics/Scopes/Optic_Nightforce_ATACR_4-16X/Optic_Nightforce_ATACR_4-16x_RMR_762x54r.et"
+     }
+    }
+   }
+  }
+ }
+}

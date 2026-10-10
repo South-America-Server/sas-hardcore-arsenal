@@ -1,0 +1,24 @@
+GenericEntity : "{D36B63749768F2B5}Prefabs/Weapons/Rifles/PP19/Rifle_PP19_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{646436FA28CFBF75}" {
+     AttachmentSlot WCS_RailAttachmentSlot Optic {
+      Enabled 0
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{646436FA28CFBF37}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
+   WeaponSlotType "secondary"
+  }
+ }
+}

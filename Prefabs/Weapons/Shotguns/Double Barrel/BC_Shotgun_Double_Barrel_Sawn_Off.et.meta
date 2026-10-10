@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{E7A3BA1F06C057FF}Prefabs/Weapons/Shotguns/Double Barrel/BC_Shotgun_Double_Barrel_Sawn_Off.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

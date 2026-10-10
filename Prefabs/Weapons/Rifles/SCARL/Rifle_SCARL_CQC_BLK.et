@@ -1,0 +1,14 @@
+GenericEntity : "{FBDC258D83013B73}Prefabs/Weapons/Rifles/SCARL/Rifle_SCARL_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{61785E090D53496F}" {
+     AttachmentSlot WCS_RailAttachmentSlot Optic {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+}

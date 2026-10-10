@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{ADDBD5080E1EC357}Configs/EntityCatalog/US/Clothing/FORTEX/FORTEX - LEGS.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+  CONFResourceClass Xbox : PC {
+  }
+ }
+}

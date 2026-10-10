@@ -1,0 +1,8 @@
+GenericEntity : "{22F71D304C7CCCCC}Prefabs/Weapons/Launchers/RPOA/Launcher_RPO_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   WeaponSlotType "launcher"
+  }
+ }
+}

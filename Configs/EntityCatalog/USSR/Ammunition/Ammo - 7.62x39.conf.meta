@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{99D9EF7BEEC83EC6}Configs/EntityCatalog/USSR/Ammunition/Ammo - 7.62x39.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+  CONFResourceClass Xbox : PC {
+  }
+ }
+}

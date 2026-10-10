@@ -1,0 +1,13 @@
+Projectile : "{1D9DDE1632F33A9E}Prefabs/Weapons/Ammo/SmallArms/Ammo_545x39_Ball_7N6.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   ProjectileEffects {
+    ProjectileDamage "{5168BBF3DBD79134}" {
+     DamageValue 80
+    }
+   }
+   PenetrationDepth 6
+  }
+ }
+}

@@ -1,0 +1,17 @@
+Projectile : "{A871758F07494882}Prefabs/Weapons/Ammo/SmallArms/Ammo_762x54r_Ball_7N1.et" {
+ ID "5494AB43AD13B6EB"
+ components {
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   InitSpeed 1100
+   ProjectileEffects {
+    ProjectileDamage "{5168BBF3DBD79134}" {
+     DamageValue 170
+    }
+   }
+   TumblingDamageThreshold 50
+   PenetrationDepth 8
+   PenetrationDensity 5
+   PenetrationSpeed 900
+  }
+ }
+}

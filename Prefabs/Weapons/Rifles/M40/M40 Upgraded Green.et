@@ -1,0 +1,14 @@
+GenericEntity : "{F9E6107C47C1B088}Prefabs/Weapons/Core/LongRangeRifle_Base.et" {
+ ID "5260C45AAAA407F4"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{6578D32BFBB00E6A}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot Scope {
+      Prefab "{5EBD8A3F114B08DD}Prefabs/Weapons/Attachments/Optics/Scopes/Optic_Nightforce_ATACR_4-16X/Optic_Nightforce_ATACR_4-16x_RMR_762x54r.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,8 @@
+GenericEntity : "{9AE416F8879DDA6D}Prefabs/Weapons/Rifles/AKS74U/Rifle_AKS74UN_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   WeaponSlotType "secondary"
+  }
+ }
+}

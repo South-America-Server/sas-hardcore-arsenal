@@ -1,0 +1,25 @@
+GenericEntity : "{46FD263F0F368A92}Prefabs/Items/Equipment/Kits/MedicalKit_01/MedicalKit_01_base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  ACE_Medical_MedicalKitInventoryStorageComponent "{5E4E8A7876A50FDC}" {
+   Attributes SCR_ItemAttributeCollection "{5E4E8A78F11700F6}" {
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     ItemDimensions 5 5 5
+     ItemVolume 1500
+    }
+   }
+  }
+  MeshObject "{5CCCD4F57413F626}" {
+   Materials {
+    MaterialAssignClass "{6A772395CC19E54F}" {
+     SourceMaterial "MedicalKit_01"
+     AssignedMaterial "{F0DDB6BC77AF3CC0}Assets/Items/Equipment/Kits/MedicalKit_01/Data/MedicalKit_01_USSR.emat"
+    }
+    MaterialAssignClass "{6A772395CC19E556}" {
+     SourceMaterial "decals_logo"
+     AssignedMaterial "{1CB44B3222E585C3}Assets/Items/Equipment/Kits/MedicalKit_01/Data/decals_MedicalKit_01_USSR.emat"
+    }
+   }
+  }
+ }
+}

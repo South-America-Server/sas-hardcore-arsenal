@@ -1,0 +1,8 @@
+GenericEntity : "{60E4C88B05B2F6B4}Prefabs/Weapons/Launchers/RPG75/Launcher_RPG75_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   WeaponSlotType "launcher"
+  }
+ }
+}

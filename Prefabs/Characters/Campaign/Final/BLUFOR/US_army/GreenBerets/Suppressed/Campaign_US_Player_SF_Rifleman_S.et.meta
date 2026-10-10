@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{F07E356391164F19}Prefabs/Characters/Campaign/Final/BLUFOR/US_army/GreenBerets/Suppressed/Campaign_US_Player_SF_Rifleman_S.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

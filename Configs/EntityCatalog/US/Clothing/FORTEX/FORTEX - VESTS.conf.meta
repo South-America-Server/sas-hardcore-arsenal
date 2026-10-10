@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{672CD4B0EB8ABA12}Configs/EntityCatalog/US/Clothing/FORTEX/FORTEX - VESTS.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+  CONFResourceClass Xbox : PC {
+  }
+ }
+}

@@ -1,0 +1,72 @@
+Turret : "{89BB7489D53FBB6C}Prefabs/Weapons/Core/Mortar_Base.et" {
+ ID "5CF87D15B3D0A976"
+ components {
+  SCR_BaseHUDComponent "{51ACD09C5E194510}" {
+   InfoDisplays {
+    SCR_MortarInfo "{60C2FC7821C6E18B}" {
+     InfoDisplays {
+      SCR_BallisticTableDisplay "{60F2FA4DBC3CE379}" {
+       m_aBallisticConfigs {
+        SCR_BaseBallisticConfig "{61509AC300C034E0}" {
+         m_fProjectileInitSpeedCoef 4.969
+        }
+        SCR_BaseBallisticConfig "{6322AA82B052B0B0}" {
+         m_fProjectileInitSpeedCoef 4.063
+        }
+        SCR_BaseBallisticConfig "{6322AA82B6BA2309}" {
+         m_fProjectileInitSpeedCoef 3.206
+        }
+        SCR_BaseBallisticConfig "{6322AA82B74C08E3}" {
+         m_fProjectileInitSpeedCoef 2.267
+        }
+        SCR_BaseBallisticConfig "{6322AA82B44AABC6}" {
+         m_fProjectileInitSpeedCoef 2.521
+        }
+        SCR_BaseBallisticConfig "{6322AA8247D08FA8}" {
+         m_fProjectileInitSpeedCoef 2.018
+        }
+        SCR_BaseBallisticConfig "{6322AA8246A68AB4}" {
+         m_fProjectileInitSpeedCoef 1.534
+        }
+        SCR_BaseBallisticConfig "{6322AA824127CFE6}" {
+         m_fProjectileInitSpeedCoef 1
+        }
+        SCR_BaseBallisticConfig "{6322AA8241A06B07}" {
+         m_fProjectileInitSpeedCoef 4.611
+        }
+        SCR_BaseBallisticConfig "{6322AA82403C7BE0}" {
+         m_fProjectileInitSpeedCoef 3.16
+        }
+        SCR_BaseBallisticConfig "{6322AA8240B870BF}" {
+         m_fProjectileInitSpeedCoef 1.93
+        }
+        SCR_BaseBallisticConfig "{6322AA8249709B8B}" {
+         m_fProjectileInitSpeedCoef 1
+        }
+        SCR_BaseBallisticConfig "{6322AA824331B16C}" {
+         m_fProjectileInitSpeedCoef 4.841
+        }
+        SCR_BaseBallisticConfig "{6322AA8243B0D874}" {
+         m_fProjectileInitSpeedCoef 4.03
+        }
+        SCR_BaseBallisticConfig "{6322AA8242308DA8}" {
+         m_fProjectileInitSpeedCoef 3.187
+        }
+        SCR_BaseBallisticConfig "{6322AA824E4FF5B5}" {
+         m_fProjectileInitSpeedCoef 2.329
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  WeaponComponent "{5D56B131A6921887}" {
+   components {
+    SCR_MortarMuzzleComponent "{5D56B131AD7ED6AB}" {
+     DispersionRange 82
+    }
+   }
+  }
+ }
+}

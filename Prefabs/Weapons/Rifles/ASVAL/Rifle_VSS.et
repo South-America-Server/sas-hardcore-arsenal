@@ -1,0 +1,14 @@
+GenericEntity : "{86AE69430657A762}Prefabs/Weapons/Rifles/ASVAL/Rifle_VSS_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{64827923CD572512}" {
+     AttachmentSlot InventoryStorageSlot Optics {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+}

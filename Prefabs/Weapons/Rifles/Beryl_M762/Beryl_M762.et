@@ -1,0 +1,348 @@
+GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{C9A2183C36C7B568}Sounds/Weapons/Rifles/Beryl_M762/Weapons_Rifles_Beryl_M762_Shot.acp" "{8519F3404775223B}Sounds/Weapons/Rifles/Beryl_M762/Weapons_Rifles_Beryl_M762_Handling.acp" "{68E023371FDD3B12}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Rifle_WoodMetal.acp" "{A84D9F22F2C0D9CE}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Rifle_WoodMetal.acp" "{214445E9606EFCD0}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_LMG.acp" "{D8F675F3468362E2}Sounds/Weapons/_SharedData/Weapons_Sights_Actions.acp" "{10C1421961C34D26}Sounds/Weapons/_SharedData/Weapons_Deployment.acp" "{E419B2CF55F4A389}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Bayonett.acp" "{DC3D655C3E08474D}Sounds/Weapons/Rifles/Beryl_M762/Weapons_Rifles_Beryl_M762_Shot_Suppressed.acp"
+   }
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{9673AA581A0BB05A}Assets/Weapons/Rifles/Beryl_M762/beryl_m762_base.xob"
+   Materials {
+    MaterialAssignClass "{6A6D39D1A780BFBD}" {
+     SourceMaterial "beryl"
+     AssignedMaterial "{F27264E135D9FE52}Assets/Weapons/Rifles/Beryl_M762/Data/beryl.emat"
+    }
+   }
+  }
+  RigidBody "{6A6D39D1A780BF8E}" {
+   SimState None
+   ModelGeometry 1
+  }
+  SCR_MeleeWeaponProperties "{6A6D39D1A780BF8D}" {
+   m_fDamage 50
+   m_fRange 1.2
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "Beryl M762"
+     Description "Beryl M762 Assault Rifle is an automatic individual firearm designed for use with 7.62×39 mm ammunition."\
+     ""\
+     "It supports fully automatic, and semi-automatic. The rifle is fed from a 30-round curved magazine."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6A6D39D1A780BF86}" {
+     Weight 3.55
+     SizeSetupStrategy Manual
+     ItemDimensions 30 30 30
+     ItemVolume 1750
+     RestingUP Right
+     PivotBoneName "barrel_muzzle"
+     RestingAdditiveOffsetLS 0.5 0 0
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{5284960E1D29F45C}" {
+     AnimationInstance "{0350283642830782}anims/workspaces/player/player_main_rifle.asi"
+     AnimationIKPose "{B7869ABD0EEE379D}Assets/Weapons/Rifles/AK74/anims/anm/p_ak74_ik.anm"
+    }
+    CustomAttributes {
+     AimingModifierAttributes "{566C7D15A071B88E}" {
+      DeploymentPoints {
+       PivotPointInfoItem "{6A6D39D1A780BF99}" {
+        "Point info" DeploymentPointInfo deploy {
+         Offset 0 0.0693 0.4299
+        }
+        StabilizationSize 0.05 0.1 0.35
+       }
+      }
+     }
+     SCR_RecoilCameraShakeParams "{58DEF2AB0413E346}" {
+      m_vTranslationMin 0.002 0.002 0
+      m_vTranslationMax 0.003 0.003 0
+      m_vRotationImpulseMin 0 0 7
+      m_vRotationImpulseMax 0 0 8
+     }
+     PreviewRenderAttributes "{52BAB5E48C906DB8}" {
+      CameraDistanceToItem 1.05
+      FOV 30
+     }
+     ItemOneHandAnimAttributes "{6A6D39D1A780BF90}" {
+      ErectLinearOffsetUpper 0 0 0
+      ErectLinearOffset 0.018 -0.2 -0.1
+      ErectLinearOffsetLower 0 -0.05 0
+      CrouchLinearOffsetUpper 0 0 0
+      CrouchLinearOffset 0.018 -0.16 -0.1
+      CrouchLinearOffsetLower 0 -0.15 0
+      SpringCoefficient 2.2
+      DamperCoefficient 2.4
+     }
+    }
+   }
+  }
+  SCR_WeaponStatsManagerComponent "{6A6D39D1A780BF94}" {
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{6A6D39D1A780B861}" {
+     Enabled 0
+     AttachmentSlot InventoryStorageSlot GripSlot {
+      Offset 0 0.035 0.268
+      ChildPivotID "w_root"
+      InspectionWidgetOffset 0 0.035 0.268
+     }
+     AttachmentType AttachmentRISBerylM762 "{6A6D39D1A780B864}" {
+     }
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{6A6D39D1A780B869}" {
+     AttachmentSlot InventoryStorageSlot laser {
+      PivotID "slot_barrel_muzzle"
+      Offset 0.005 0.0551 -0.2802
+      InspectionWidgetOffset 0 0.13 0.28
+     }
+     AttachmentType AttachmentRIS1913 "{6A6D39D1A780B863}" {
+     }
+     ShowInInspection 1
+    }
+    SightsComponent "{BB23A637957CFFF8}" {
+     components {
+      AttachmentSlotComponent "{6A6D39D1A780B878}" {
+       AttachmentSlot InventoryStorageSlot optics {
+        PivotID "slot_optics"
+        ChildPivotID "snap_weapon"
+        InspectionWidgetOffset 0 0 0.03
+       }
+       AttachmentType AttachmentOpticsRIS1913 "{6A6D39D1A780B87F}" {
+       }
+       ShowInInspection 1
+      }
+     }
+     SightsPosition PointInfo "{BB23A63796688E69}" {
+      Offset 0 0 0
+     }
+     SightsRanges {
+      SightRangeInfo "{6A6D39D1A780B84F}" {
+       Range 0.133975 300
+       WeaponPosition PointInfo "{6A6D39D1A780B84C}" {
+        Offset 0 -0.00752 -0.00213
+        Angles 0.95693 0 0
+       }
+      }
+      SightRangeInfo "{6A6D39D1A780B842}" {
+       Range 0.151515 400
+       WeaponPosition PointInfo "{6A6D39D1A780B840}" {
+        Offset 0 -0.00964 -0.00276
+        Angles 1.2863 0 0
+       }
+      }
+      SightRangeInfo "{6A6D39D1A780B846}" {
+       Range 0.165515 500
+       WeaponPosition PointInfo "{6A6D39D1A780B847}" {
+        Offset 0 -0.01464 -0.00336
+        Angles 1.3863 0 0
+       }
+      }
+     }
+     SightsPointFront PointInfo "{6A6D39D1A780B85A}" {
+      PivotID "w_sight_slide"
+      Offset 0 0.0077 0.3493
+     }
+     SightsPointRear PointInfo "{6A6D39D1A780B858}" {
+      PivotID "w_sight"
+      Offset 0 0.0077 -0.0503
+     }
+     CameraRecoilAmount 0.35
+     SightsSwitchSkip 1
+     ZeroingGenerator BaseZeroingGenerator "{6A6D39D1A780B85F}" {
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{6A6D39D1A780B85D}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        PivotID "slot_barrel_muzzle"
+        ChildPivotID "snap_barrel_muzzle"
+        InspectionWidgetOffset 0 0.0732 0.6
+       }
+       AttachmentType AttachmentMuzzleBerylSuppressor "{6A6D39D1A780B850}" {
+       }
+       ShowInInspection 1
+      }
+      CaseEjectingEffectComponent "{5122AAD190FCA21D}" {
+       ParticleEffect "{54958EFDEF383B1B}Particles/Weapon/Casing_545x39.ptc"
+       EffectPosition EntitySlotInfo "{5122BA87B56F471A}" {
+        PivotID "barrel_chamber"
+        Offset 0.015 0 0
+        Angles -4.834 104.8396 -1.2791
+       }
+      }
+      SCR_MuzzleEffectComponent "{C9B3271BB22CDB68}" {
+       ParticleEffect "{57A509D9293B172D}Particles/Weapon/Muzzle_PKM_flashHider.ptc"
+       EffectPosition EntitySlotInfo "{C9B3271BB85B5D32}" {
+       }
+       ResetOnFire 0
+      }
+     }
+     MuzzleEndPositions {
+      PointInfo "{B80A64F4B6CFB9BF}" {
+       PivotID "barrel_muzzle"
+      }
+     }
+     ProjectileSpawnPositions {
+      PointInfo "{50F64C476EC435CA}" {
+       PivotID "barrel_muzzle"
+      }
+     }
+     FireModes {
+      BaseFireMode "{B80A64F4A8EF8333}" : "{A512F292D96BCB9F}Prefabs/Weapons/Core/Configs/FireModes/FireMode_Auto.conf" {
+       RoundsPerMinute 700
+      }
+      BaseFireMode "{619AB45C30091E43}" : "{D5D52E848DBCAA53}Prefabs/Weapons/Core/Configs/FireModes/FireMode_Single.conf" {
+       RoundsPerMinute 700
+      }
+     }
+     MagazineWell MagazineWellVZ58_762 "{6A6D39D260397BA3}" {
+     }
+     BulletInitSpeedCoef 1.02
+     DispersionDiameter 0.4
+     DispersionRange 320
+     WeaponAimModifiers {
+      SwayWeaponAimModifier "{521AE9A27BDC1E6F}" {
+       "Lower Translation" 0.03 0 0
+       "Lower Rotation" -12 -8 -10
+      }
+      RecoilWeaponAimModifier "{6A6D39D1A780B83D}" {
+       LinearData RecoilData "{6A6D39D1A780B830}" {
+        "Curve X" {
+         0 0.5 0.034 0.553 0.084 0.602 0.192 0.56 0.301 0.518 1 0.5
+        }
+        "Curve Y" {
+         0 0.5 0.024 0.537 0.048 0.566 0.077 0.546 0.095 0.506 0.125 0.5 0.261 0.5 1 0.5
+        }
+        "Curve Z" {
+         0 0.5 0.01 0.62 0.022 0.689 0.043 0.675 0.066 0.626 0.101 0.568 0.172 0.512 0.436 0.5 1 0.5
+        }
+        "Curve Magnitudes" 1 1 1
+        "Curve Mins" -0.001 -0.002 -0.022
+        "Curve Maxs" 0.001 0.003 -0.018
+        "Base Recoil Scale" 3
+       }
+       AngularData RecoilData "{6A6D39D1A780B837}" {
+        "Curve X" {
+         0 0.5 0.019 0.411 0.055 0.539 0.11 0.474 0.216 0.497 1 0.5
+        }
+        "Curve Y" {
+         0 0.5 0.038 0.796 0.1 0.93 0.222 0.765 0.349 0.571 0.529 0.508 1 0.5
+        }
+        "Curve Z" {
+         0 0.5 0.033 0.641 0.049 0.892 0.095 0.7 0.238 0.487 0.443 0.5 0.7 0.5 1 0.5
+        }
+        "Curve Time Scale" 1.25
+        "Curve Magnitudes" 1 1 1
+        "Curve Mins" -1 1.25 1
+        "Curve Maxs" 1 1.5 1
+       }
+       TurnOffsetData RecoilData "{6A6D39D1A780B80A}" {
+        "Curve X" {
+         0 0.5 0.025 0.75 0.06 1 0.094 0.75 0.116 0.539 0.148 0.502 1 0.5
+        }
+        "Curve Y" {
+         0.031 0.998 0.105 0.576 0.236 0.5 1 0.5
+        }
+        "Curve Time Scale" 1
+        "Curve Magnitudes" 1 1 0
+        "Curve Mins" -1.5 4.5 0
+        "Curve Maxs" 1.5 6 0
+        "Base Recoil Scale" 3
+       }
+      }
+      ZeroingWeaponAimModifier "{6A6D39D1A780B809}" {
+      }
+     }
+     UIInfo MuzzleUIInfo "{2FBBA72C906C627E}" {
+     }
+     ReloadDuration 1.9
+     "LEFT HAND TARGET" DeploymentPointInfo lht {
+      PivotID "snap_hand_left"
+      Offset 0 -0.01 -0.1094
+     }
+     RIGHT_HAND_TARGET DeploymentPointInfo rht {
+      PivotID "snap_hand_right"
+     }
+     BUTSTOCK_TRANSFORMATION DeploymentPointInfo bt {
+      Offset 0 0.0237 -0.3274
+     }
+     MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
+      PivotID "slot_magazine"
+      ChildPivotID "snap_weapon"
+      InspectionWidgetOffset 0 -0.0281 0.093
+     }
+     MagazineTemplate "{BC74DAC891D48541}Prefabs/Weapons/Magazines/Magazine_762x39_BERYL_M762_30rnd_Ball.et"
+    }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     AnimGraph "{13C0F0D1093EB115}Assets/Weapons/Rifles/Beryl_M762/workspaces/BerylM762.agr"
+     AnimInstance "{280B956B66E3A951}Assets/Weapons/Rifles/Beryl_M762/workspaces/BerylM762_weapon.asi"
+     AnimInjection AnimationAttachmentInfo "{6A6D39D1A780B804}" {
+      AnimGraph "{13C0F0D1093EB115}Assets/Weapons/Rifles/Beryl_M762/workspaces/BerylM762.agr"
+      AnimInstance "{D355045AFEE2CDBD}Assets/Weapons/Rifles/Beryl_M762/workspaces/BerylM762_player.asi"
+      BindingName "Weapon"
+     }
+     BindWithInjection 1
+    }
+   }
+   SignalsSourceAccess SignalsSourceAccessClass "{CC7B64C6B99546FB}" {
+   }
+   obstructionTestAddedLength 0.1
+   slightObstrWeaponMaxZOffset 0.1
+   SoundInt 1020100
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "Beryl M762"
+    Description "The 7.62 mm Beryl M762 Assault Rifle is an automatic individual firearm designed for use with 7.62×39 mm ammunition."\
+    ""\
+    "It supports fully automatic, and semi-automatic. The rifle is fed from a 30-round curved magazine."
+    Icon ""
+   }
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   ActionContexts {
+    UserActionContext "{5086F9ADF588DCA4}" {
+     Position PointInfo "{5086F9ADE97650DF}" {
+      Offset 0 -0.0068 -0.0898
+     }
+    }
+    UserActionContext "{5956E32BAAADE657}" {
+     Position PointInfo "{5956E329E6B11261}" {
+      Offset 0 0.0552 0.5203
+     }
+    }
+    UserActionContext "{5A1E58F7B04F9BE5}" {
+     Position PointInfo "{6A6D39D1A780B813}" {
+      PivotID "slot_magazine"
+      Offset 0 -0.0601 -0.0215
+     }
+    }
+    UserActionContext "{5A1E58F7AED270D4}" {
+     Position PointInfo "{6A6D39D1A780B817}" {
+      PivotID "w_fire_mode"
+      Offset -0.0405 -0.0078 -0.0034
+      Angles 0 -90 0
+     }
+     Radius 0.05
+     Omnidirectional 0
+    }
+    UserActionContext "{618A84270A2BFDC0}" {
+     Position PointInfo "{618A842792A66B70}" {
+      Offset 0 0 0.0092
+     }
+     Radius 0.075
+    }
+   }
+   additionalActions {
+    SCR_DetachMagazineUserAction "{5A1E58F790AF821D}" {
+     UIInfo SCR_ActionUIInfo "{5A1E58F788F40D95}" {
+      Name "Detach: "
+     }
+    }
+   }
+  }
+ }
+}

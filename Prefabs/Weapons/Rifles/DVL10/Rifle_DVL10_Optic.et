@@ -1,0 +1,14 @@
+GenericEntity : "{1EEEB319B0DF42FE}Prefabs/Weapons/Rifles/DVL10/Rifle_DVL10_base.et" {
+ ID "525494E72B1E90FD"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5472D211BFD78F81}" {
+     AttachmentSlot WCS_RailAttachmentSlot Optic {
+      Prefab "{C556831D6EE63AEE}Prefabs/Weapons/Attachments/Optics/Scopes/Optic_VortexGoldenEagleHD15-60x/Optic_VortexGoldenEagleHD_15-60x.et"
+     }
+    }
+   }
+  }
+ }
+}

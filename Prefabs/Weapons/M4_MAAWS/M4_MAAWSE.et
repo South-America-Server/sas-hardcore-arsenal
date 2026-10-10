@@ -1,0 +1,335 @@
+GenericEntity : "{9064206CBDE9CD95}Prefabs/Weapons/Core/Launcher_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{129412D683C6D017}Sounds/Weapons/Launchers/MAAWS/Weapons_Launchers_MAAWS2_shot.acp" "{A282886C6ADC5BB9}Sounds/Weapons/Launchers/MAAWS/Weapons_M60-MAAWS_Handling.acp" "{BE75864A922B37C0}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Launcher.acp" "{98E0914D023CFBCC}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Launcher.acp" "{D8F675F3468362E2}Sounds/Weapons/_SharedData/Weapons_Sights_Actions.acp" "{06D3A8F7F0A920C2}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Launcher.acp"
+   }
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{47908CC862CBEE7B}Assets/Weapons/Launchers/M18 Carl Gustav/Carl Gustav.xob"
+  }
+  RigidBody "{6A7779CFB5833438}" {
+   Layers 0x10000000 0
+   SimState None
+   ModelGeometry 1
+  }
+  SCR_MeleeWeaponProperties "{6A7779CFB5833430}" {
+   m_fDamage 60
+   m_fRange 1.5
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB047B845168}" {
+     Name "#ICR-Weapon_MAAWS"
+     Description "#ICR-Weapon_MAAWS_Desc"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6A7779CFB58335CB}" {
+     Weight 6.6
+     SizeSetupStrategy Manual
+     ItemDimensions 30 30 30
+     ItemVolume 4000
+     DimensionScaler 1
+     RestingUP Right
+     RestingAdditiveRotationLS 0 1.8 -12.2
+     RestingAdditiveOffsetLS 0.075 0 0
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{5284960DAA53DDFC}" {
+     IkSettings {
+      ItemIKSettings "{5284960DA9B88634}" {
+      }
+      ItemIKSettings "{5284960DA9EA45EA}" {
+      }
+      ItemIKSettings "{5284960DA87282B4}" {
+      }
+      ItemIKSettings "{5526E345D0462B03}" {
+       MovementSpeedRange 0 0
+       IkSettingsStand 0x4 0
+      }
+      ItemIKSettings "{6A7779CFB58335CE}" {
+       ProneTurn 1
+       MovementSpeedRange 0 0
+       IkSettingsStand 0x4 0
+      }
+     }
+     AnimationInstance "{81E91C367B2A22D6}anims/workspaces/player/player_main_rpg.asi"
+     AnimationIKPose "{C33583C57EE4A83B}Assets/Weapons/Launchers/M18 Carl Gustav/anims/ERC/p_gustaf_erc_ik.anm"
+     IncludeBonesInIkBlend {
+     }
+    }
+    CustomAttributes {
+     AimingModifierAttributes "{566C7D15A071B88E}" {
+     }
+     ItemMovementSwayAttributes "{58B9009CD03086A9}" {
+     }
+     SCR_RecoilCameraShakeParams "{58DEF2AB0413E346}" {
+     }
+     CharacterModifierAttributes "{6A7779CFB58335C2}" {
+      ADSSpeedLimit 1.5
+      SpeedLimitHighready 1.75
+      AllowReloadingWithRoll 0
+     }
+     PreviewRenderAttributes "{6A7779CFB58335C0}" {
+      CameraPreset Right
+      CameraDistanceToItem 1
+      FOV 30
+      AspectRatio 1
+      AnimationInstance "{C6CE144E13008635}anims/workspaces/player/player_inventory_launcher.asi"
+     }
+    }
+   }
+  }
+  SCR_WeaponBlastComponent "{624C97444AC1B357}" {
+   m_aBlastEffects {
+    SCR_WeaponBlastEffect "{6262C5CDB1E33256}" : "{F2479EB25365462C}Prefabs/Weapons/Core/Damage/WeaponBlast/WeaponBlastEffect_Damage.conf" {
+    }
+    SCR_WeaponBlastEffect "{6262C5CDB6886D9F}" : "{32657999002110ED}Prefabs/Weapons/Core/Damage/WeaponBlast/WeaponBlastEffect_Concussion.conf" {
+     m_eDamageType INCENDIARY
+     m_DamageEffect SCR_BackBlastDamageEffect "{6262C5CDA676872D}" {
+      m_fResilienceDamageValueMultiplier 5
+     }
+     m_fDamageValue 5
+    }
+   }
+   m_fBlastLength 10
+   m_fBlastConeAngle 30
+   m_fDeflectionFlatteningStrength 1
+   m_BlastOrigin PointInfo "{6A7779CFB58335DA}" {
+    PivotID "barrel_chamber"
+    Offset 0 0 0
+    Angles 0 180 0
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{6A7779CFB58335DE}" {
+     AttachmentSlot InventoryStorageSlot sidebitchrail {
+      PivotID "snap_AFRAIL"
+      InspectionWidgetOffset 0.0625 0.0896 0.413
+     }
+     AttachmentType AttachmentRIS1913 "{6A7779CFB58335D3}" {
+     }
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{B502E4DC8A9E835E}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      PivotID "snap_optics"
+      Angles 0 0 0
+      ChildPivotID "snap_weapon"
+      Prefab ""
+      DisablePhysicsInteraction 1
+      InspectionWidgetOffset -0.0884 0.1133 0.2897
+     }
+     AttachmentType AttachmentSAABHingeHook "{6A7779CFB58335D0}" {
+     }
+     ShowInInspection 1
+    }
+    SCR_CollimatorSightsComponent "{BB23A637957CFFF8}" {
+     components {
+      SCR_CollimatorControllerComponent "{6A7779CFB58335D5}" {
+      }
+     }
+     SightsPosition PointInfo "{BB23A63796688E69}" {
+      PivotID "eye"
+      Offset 0 0.002 0
+     }
+     CollimatorTopLeft PointInfo "{6A7779CFB58335EB}" {
+      PivotID "collimator_TL"
+     }
+     CollimatorBottomRight PointInfo "{6A7779CFB58335E9}" {
+      PivotID "collimator_BR"
+     }
+     ReticleDefaultAngularSize 0.17
+     ReticleDefaultTexturePortion 0.5
+     ReticleColors {
+      BaseCollimatorReticleColor "{6A7779CFB58335E0}" {
+       ReticleColor 0.2141 0 0 1
+       GlowColor 1 0 0 1
+      }
+     }
+     InitialHorziontalAngularCorrection -0.5
+     InitialVerticalAngularCorrection -12.5
+     ReticleAutoBright 1
+     ReticleAutoClampDayNight 1
+     m_iOpticDOFDistanceScale -1
+     m_fDaylightBrightness 15
+     m_fNightBrightness 0
+    }
+    MuzzleComponent "{50F65D04F21F7633}" {
+     components {
+      MuzzleEffectComponent "{50F65D04EE343E7E}" {
+       ParticleEffect "{F6A12BCA7F2A5B3D}Particles/Weapon/Muzzle_RPG7V1_01.ptc"
+       EffectPosition EntitySlotInfo "{50F65D04CCCEB691}" {
+        PivotID "barrel_muzzle"
+       }
+      }
+      SCR_MuzzleEffectComponent "{6A7779CFB58335FB}" {
+       ParticleEffect "{D4CDEE9D1C462325}Particles/Weapon/Muzzle_Rocket_Pod_M260_Back.ptc"
+       EnabledOnDedicatedServer 1
+       EffectPosition EntitySlotInfo "{508B06E0D8933BED}" {
+        PivotID "barrel_chamber"
+        Offset 0 0 -0.4163
+        Angles 0 180 0
+       }
+      }
+     }
+     MuzzleEndPositions {
+      PointInfo "{50F65D0428599966}" {
+       PivotID "barrel_muzzle"
+      }
+     }
+     ProjectileSpawnPositions {
+      PointInfo "{50F65D0454F95B2D}" {
+       PivotID "barrel_chamber"
+      }
+     }
+     ChamberedAmmo 0
+     FireModes {
+      BaseFireMode "{619AB45A66D09098}" {
+       MaxBurst -1
+       RoundsPerMinute 800
+       ManualAction 0
+      }
+     }
+     MagazineWell MagazineWellMAAWS "{6A7779CFB58335F1}" {
+     }
+     DispersionRange 450
+     WeaponAimModifiers {
+      RecoilWeaponAimModifier "{6A7779CFB58335F6}" {
+       LinearData RecoilData "{6A7779CFB583358B}" {
+        "Curve X" {
+         0 0.5 0.058 0.738 0.324 0.452 0.659 0.498 1 0.5
+        }
+        "Curve Y" {
+         0 0.5 0.06 0.748 0.317 0.452 0.631 0.495 1 0.5
+        }
+        "Curve Z" {
+         0 0.498 0.064 0.8 0.324 0.348 0.646 0.498 1 0.5
+        }
+        "Curve Time Scale" 1.45
+        "Curve Magnitudes" 0 0 2
+        "Curve Mins" -0.005 -0.01 -0.04
+        "Curve Maxs" 0.01 0.02 0.1
+       }
+       AngularData RecoilData "{6A7779CFB5833589}" {
+        "Curve X" {
+         0 0.5 0.121 0.597 0.651 0.502 1 0.5
+        }
+        "Curve Y" {
+         0 0.5 0.063 0.849 0.32 0.231 0.692 0.495 1 0.5
+        }
+        "Curve Z" {
+         0 0.5 0.058 0.363 0.319 0.578 0.654 0.498 1 0.5
+        }
+        "Curve Time Scale" 1.45
+        "Curve Magnitudes" 1 5 1
+        "Curve Mins" -0.01 -1 -4
+        "Curve Maxs" 0.2 2 6
+       }
+       TurnOffsetData RecoilData "{6A7779CFB5833588}" {
+        "Curve X" {
+         0.178 0.799 0.28 0.5
+        }
+        "Curve Y" {
+         0.501 0.725 0.878 0.343
+        }
+        "Curve Z" {
+         0.397 0.708 0.859 0.262
+        }
+        "Curve Time Scale" 5.925
+        "Curve Magnitudes" 1 1 1
+        "Curve Mins" -15 -34 198
+        "Curve Maxs" 35 80 201.3
+        "Base Recoil Scale" 7.577
+        "Move Recoil Scale" 0.494
+       }
+      }
+      ZeroingWeaponAimModifier "{6A7779CFB583358E}" {
+      }
+     }
+     UIInfo MuzzleUIInfo "{50F65D05B8374621}" {
+      m_bShowFiremode 1
+      m_MagIndicator SCR_MagazineIndicatorConfiguration "{6A7779CFB5833580}" {
+       m_sImagesetIcons "{F182DD453A5F42D9}UI/Imagesets/WeaponInfo/WeaponInfo_MAAW.imageset"
+       m_sImagesetGlows "{F182DD453A5F42D9}UI/Imagesets/WeaponInfo/WeaponInfo_MAAW.imageset"
+       m_sOutline "rocket-551-outline"
+       m_bProgressBar 0
+       m_sBackground "rocket-551-background"
+       m_sProgress "rocket-551-fill"
+       m_sProgressAlphaMask "rocket-551-alpha"
+      }
+     }
+     AllowWeaponDeployment 0
+     MagazinePosition InventoryStorageSlot "{51070C3B47428343}" {
+      PivotID "barrel_chamber"
+      MergePhysics 0
+     }
+     MagazineTemplate "{5B9BCFE7BBB5B55C}Prefabs/Magazine/Magazine_84mm_HEAT551.et"
+    }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     AnimGraph "{A7B90B4B61432F23}Assets/Weapons/Launchers/Workspaces/Gustaf.agr"
+     AnimInstance "{BB4AEB60B35B5B28}Assets/Weapons/Launchers/Workspaces/Gustaf_weapon.asi"
+     AnimInjection AnimationAttachmentInfo "{6A7779CFB583359A}" {
+      AnimGraph "{A7B90B4B61432F23}Assets/Weapons/Launchers/Workspaces/Gustaf.agr"
+      AnimInstance "{40147A512B5A3FC4}Assets/Weapons/Launchers/Workspaces/Gustaf_player.asi"
+      BindingName "Weapon"
+     }
+     BindWithInjection 1
+     AutoVariablesBind 0
+    }
+   }
+   obstructionTestAddedLength 0
+   SoundInt 1050100
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "#ICR-Weapon_MAAWS_Name"
+    Description "#ICR-Weapon_MAAWS_Desc"
+    Icon ""
+    m_MagIndicator SCR_MagazineIndicatorConfiguration "{565ECA2FE3F0F3FB}" {
+     m_sImagesetIcons "{F182DD453A5F42D9}UI/Imagesets/WeaponInfo/WeaponInfo_MAAW.imageset"
+     m_sImagesetGlows "{F182DD453A5F42D9}UI/Imagesets/WeaponInfo/WeaponInfo_MAAW.imageset"
+     m_sOutline "rocket-551-outline"
+     m_sBackground "rocket-551-background"
+     m_sProgress "rocket-551-fill"
+     m_sProgressAlphaMask "rocket-551-alpha"
+    }
+   }
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   ActionContexts {
+    UserActionContext "{5086F9ADF588DCA4}" {
+     Position PointInfo "{5086F9ADE97650DF}" {
+      Offset 0 0.0388 0.1758
+     }
+    }
+    UserActionContext "{5956E32BAAADE657}" {
+     Position PointInfo "{5956E329E6B11261}" {
+      Offset 0 0.0178 0.4485
+     }
+     Radius 0.1
+    }
+    UserActionContext "{5A1E58F7B04F9BE5}" {
+     Position PointInfo "{6A7779CFB5833591}" {
+      Offset 0.0002 0.0608 0.1201
+     }
+     Radius 0.1
+     Height 0
+    }
+    UserActionContext "{5A1E58F7AED270D4}" {
+     Position PointInfo "{6A7779CFB58335AD}" {
+      Offset 0.014 -0.03 0.1943
+     }
+     Radius 0.05
+     Height 0
+    }
+    UserActionContext "{6A7779CFB58335A3}" {
+     ContextName "optic"
+     Position PointInfo "{6A7779CFB58335A2}" {
+      PivotID "w_sight"
+      Offset -0.0421 0.0239 0.2859
+     }
+     Radius 0.075
+    }
+   }
+  }
+ }
+}

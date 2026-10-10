@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{76D7AF9B3A86E592}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Spetsnaz/Campaign_USSR_Player_SF_Rifleman.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{A71667F57754BA12}Configs/EntityCatalog/USSR/Clothing/FORTEX/FORTEX - PATCHES.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+  CONFResourceClass Xbox : PC {
+  }
+ }
+}

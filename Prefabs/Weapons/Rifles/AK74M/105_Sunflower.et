@@ -1,0 +1,28 @@
+GenericEntity : "{DB0321B75C2A0FBD}Prefabs/Weapons/Rifles/AK74M/Rifle_AK105_npz_b10m_b19n.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{60973E8B35781C43}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot RIS_Slot {
+      Enabled 0
+     }
+    }
+    AttachmentSlotComponent "{60CD2ECB35B7F4D1}" {
+     AttachmentSlot InventoryStorageSlot handguard {
+      Enabled 0
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{4E2B66CBA589F625}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

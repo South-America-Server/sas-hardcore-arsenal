@@ -1,0 +1,8 @@
+GenericEntity : "{CCC00D009D4949B0}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M_base.et" {
+ ID "5968D2B6A82C6019"
+ components {
+  SCR_MineWeaponComponent "{59F2DC2C202D1AFB}" {
+   WeaponSlotType "launcher"
+  }
+ }
+}

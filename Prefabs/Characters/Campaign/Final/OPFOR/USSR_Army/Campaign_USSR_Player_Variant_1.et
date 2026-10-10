@@ -1,0 +1,65 @@
+SCR_ChimeraCharacter : "{F063CEEB9295E9B6}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Campaign_USSR_Player.et" {
+ ID "5242B7AE8EF4D733"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   AttachType InventoryStorageSlot "{0C3DA650B52E120B}" {
+   }
+   WeaponTemplate "{CC80A39F96C413B0}Prefabs/Weapons/Rifles/AK-74M/FORTEX_AK74M.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{5E1DF953525E98D5}Prefabs/Characters/HeadGear/Helm/Kolpak20/Kolpak.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{32CDD88855DAFEDD}Prefabs/Characters/Uniform/VKPO 3.1/Vkpo3_1Jacket_EMR_Base.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{C9E54461486E8008}Prefabs/Characters/Ratnik/6B46 Vest/Vest_6B46.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{4CE859D50098DBAB}Prefabs/Characters/Uniform/VKPO 3.1/VKPO3_1_Pants_EMR_Base.et"
+    }
+    SCR_FeetLoadoutSlotInfo Boots {
+     Prefab "{19128249023B1B8A}Prefabs/Characters/Uniform/Footwear/LowaBoots/Lowa_boots_Olive.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{6849B3FA75A6815E}Prefabs/Characters/BackPack/Molly_Bag_EMR.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{280BC3717A49F7B9}Prefabs/Characters/Ratnik/6B45 Vest/Ratnik_Pouch_V2.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{B00FB40EB3F1F069}Prefabs/Characters/Uniform/Handwear/Gloves_Rus_green.et"
+    }
+    LoadoutSlotInfo Face {
+     Prefab "{EC31ADCB9EAB2CDE}Prefabs/Characters/HeadGear/Tactical Balaclava/Tactical balaclava_oliva.et"
+    }
+    LoadoutSlotInfo Extra2 {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+     TargetStorage "Back/Molly_Bag_EMR.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+     TargetStorage "Back/Molly_Bag_EMR.et"
+     PrefabsToSpawn {
+      "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et" "{527D7C5D2E476BDC}Prefabs/Items/Medicine/SalineBag_01/SalineBag_USSR_01.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et"
+     }
+    }
+    ItemsInitConfigurationItem "{54A68D64D7F9124F}" {
+     TargetStorage "Vest/Ratnik_Pouch_V2.et"
+     PrefabsToSpawn {
+      "{F40633908E8C93EC}Prefabs/Weapons/Magazines/545x39/Mag_Bakalite_Tape_545x39/Bakelite_Tape1_545x39_AK_30rnd7N10.et" "{F40633908E8C93EC}Prefabs/Weapons/Magazines/545x39/Mag_Bakalite_Tape_545x39/Bakelite_Tape1_545x39_AK_30rnd7N10.et" "{F40633908E8C93EC}Prefabs/Weapons/Magazines/545x39/Mag_Bakalite_Tape_545x39/Bakelite_Tape1_545x39_AK_30rnd7N10.et" "{F40633908E8C93EC}Prefabs/Weapons/Magazines/545x39/Mag_Bakalite_Tape_545x39/Bakelite_Tape1_545x39_AK_30rnd7N10.et" "{F40633908E8C93EC}Prefabs/Weapons/Magazines/545x39/Mag_Bakalite_Tape_545x39/Bakelite_Tape1_545x39_AK_30rnd7N10.et" "{F40633908E8C93EC}Prefabs/Weapons/Magazines/545x39/Mag_Bakalite_Tape_545x39/Bakelite_Tape1_545x39_AK_30rnd7N10.et" "{F40633908E8C93EC}Prefabs/Weapons/Magazines/545x39/Mag_Bakalite_Tape_545x39/Bakelite_Tape1_545x39_AK_30rnd7N10.et"
+     }
+    }
+   }
+  }
+ }
+}

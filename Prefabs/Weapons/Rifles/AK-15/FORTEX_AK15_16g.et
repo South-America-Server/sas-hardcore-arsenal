@@ -1,0 +1,600 @@
+GenericEntity : "{96DFD2E7E63B3386}Prefabs/Weapons/Rifles/AK74/Rifle_AK74N.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{65410B25AB9B790F}Sounds/Weapons/Rifles/AK15/T_Weapons_Rifles_AK-15_Shot.acp" "{15D5564B4CF35321}Sounds/Weapons/Rifles/AK-74/F1_Weapons_Rifles_AK-74_Handling.acp" "{68E023371FDD3B12}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Rifle_WoodMetal.acp" "{A84D9F22F2C0D9CE}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Rifle_WoodMetal.acp" "{332983CC95EE1E1E}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Rifle.acp" "{D8F675F3468362E2}Sounds/Weapons/_SharedData/Weapons_Sights_Actions.acp" "{10C1421961C34D26}Sounds/Weapons/_SharedData/Weapons_Deployment.acp" "{E419B2CF55F4A389}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Bayonett.acp" "{673F2C3043536527}Sounds/Weapons/Rifles/AK15/supp+super/F1_Weapons_Rifles_AK-15_Shot_Suppressed_SuperSonic_G.acp" "{F6699B5AF53F9BF2}Sounds/Weapons/Rifles/AK15/supp+super/F1_Weapons_Rifles_AK-15_Shot_Suppressed_SuperSonic_M.acp" "{0762A30E8660AE1E}Sounds/Weapons/Rifles/AK15/supp+super/F1_Weapons_Rifles_AK-15_Shot_Suppressed_SuperSonic_S.acp"
+   }
+  }
+  FORTEX_BipodStabBoneComponent "{6A6D39D088D0EC3E}" {
+   m_sStabBone "slot_underbarrel"
+   m_FoldedStab PointInfo "{6A6D39D088D0EC0E}" {
+    PivotID "slot_underbarrel"
+    Offset 0 -0.0095 -0.1537
+   }
+   m_UnfoldedStab PointInfo "{6A6D39D088D0EC0A}" {
+    PivotID "slot_underbarrel"
+    Offset 0 -0.1319 -0.1587
+   }
+  }
+  FORTEX_BoltCatchSoundComponent "{6A6D39D088D0EC14}" {
+  }
+  FORTEX_SubsonicShotSoundComponent "{6A6D39D088D0EC16}" {
+  }
+  FORTEX_WeaponAssemblyComponent "{6A6D39D088D0EC10}" {
+   m_aRules {
+    "BaseBody" "HandGuard" "Stock \\ StockMount & StockModul" "PistolGrip \\ PistolGripMount & PistolGripModul"
+   }
+   m_sHintTitle "#FORTEX_HINT_WEAPON_DISASSEMBLED"
+   m_sHintText "#FORTEX_HINT_MISSING_PARTS"
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{750A5224F2E827EF}Assets/Weapons/ModernAKsBundle/Rifles/AK12/AK12_RTG.xob"
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName SCR_InventoryUIInfo "{5222CB07CFF6712A}" {
+     Name "#FORTEX_AK15_16g"
+     Description "#FORTEX_AK15_DESC"
+     m_aItemHints {
+      SCR_InventoryItemHintUIInfo "{6A6D39D088D0EC18}" {
+       Name "#FORTEX_W_Caliber:7.62×39 мм"
+       Icon "{A37CF52DBA874559}UI/Imagesets/WeaponInfo/WeaponInfo_Ammo.imageset"
+       IconSetName "ammotype-HP"
+      }
+      SCR_InventoryItemHintUIInfo "{6A6D39D088D0EC1A}" {
+       Name "#FORTEX_W_F_Mode: #FORTEX_W_F_Mode_Burst"
+       Icon "{A37CF52DBA874559}UI/Imagesets/WeaponInfo/WeaponInfo_Ammo.imageset"
+       IconSetName "ammotype-fmj"
+      }
+      SCR_InventoryItemHintUIInfo "{6A6D39D088D0ECE5}" {
+       Name "#FORTEX_W_E_Range: 400 м"
+       Icon "{A37CF52DBA874559}UI/Imagesets/WeaponInfo/WeaponInfo_Ammo.imageset"
+       IconSetName "xtra-zoom"
+      }
+      SCR_InventoryItemHintUIInfo "{6A6D39D088D0ECE4}" {
+       Name "#FORTEX_W_F_Rate: 700 #FORTEX_W_F_Rate_Unit"
+       Icon "{A37CF52DBA874559}UI/Imagesets/WeaponInfo/WeaponInfo_Ammo.imageset"
+       IconSetName "ammotype-tracer"
+      }
+     }
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6A6D39D088D0ECE0}" {
+     Weight 2.701
+     SizeSetupStrategy Manual
+     ItemDimensions 25 25 25
+     ItemVolume 1500
+     RestingUP Left
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{5284960E1D29F45C}" {
+     AnimationInstance "{0350283642830782}anims/workspaces/player/player_main_rifle.asi"
+     AnimationIKPose "{6388C5D5E7C20316}anims/AK200/p_rfl_ak200_ik.anm"
+    }
+    CustomAttributes {
+     AimingModifierAttributes "{566C7D15A071B88E}" {
+      DeploymentPoints {
+       PivotPointInfoItem "{5A88DB44D1DE25C6}" {
+        "Point info" DeploymentPointInfo deploy {
+         PivotID "slot_underbarrel"
+         Offset 0 -0.0075 -0.1504
+        }
+        StabilizationPoints {
+         DeploymentPointInfo bipod_pos {
+          PivotID "slot_underbarrel"
+          Offset 0 -0.165 -0.1761
+         }
+        }
+        StabilizationSize 0.1 0.1 0.1
+       }
+      }
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{559E78319D6C8CFA}" {
+   Enabled 0
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{55349E9229B55E29}" {
+     Enabled 0
+    }
+    AttachmentSlotComponent "{5F189C826D592450}" {
+     Enabled 0
+     AttachmentSlot InventoryStorageSlot BayonetSlot {
+      Enabled 0
+     }
+    }
+    AttachmentSlotComponent "{6A6D39D088D0ECF6}" {
+     Enabled 0
+    }
+    FORTEX_AttachmentSlotComponent "{51F6738D2EC74BE1}" {
+     Enabled 0
+    }
+    FORTEX_AttachmentSlotComponent "{6A6D39D088D0EC85}" {
+     components {
+      FORTEX_AttachmentSlotComponent "{6A6D39D088D0EC87}" {
+       AttachmentSlot InventoryStorageSlot GP {
+        Offset -0.0022 0.0184 0.3056
+        Enabled 0
+        Prefab "{1ABABE3551512B0A}Prefabs/Weapons/Attachments/Underbarrel/UGL_GP25.et"
+        InspectionWidgetOffset 0 0 0.3894
+       }
+       AttachmentType AttachmentUnderBarrelGP25 "{6A6D39D088D0EC81}" {
+       }
+       ShowInInspection 1
+       m_bIsRailRequired 1
+       m_bProtectFromSmartSwap 0
+       m_aBlockAttachmentTypes {
+        FORTEX_AttachmentAKGripmlock "{6A6D39D088D0EC83}" {
+        }
+        FORTEX_AttachmentAKGripris "{6A6D39D088D0EC8D}" {
+        }
+        FORTEX_BipodsMLOK "{6A6D39D088D0EC8C}" {
+        }
+        FORTEX_BipodsRIS "{6A6D39D088D0EC8F}" {
+        }
+       }
+      }
+      FORTEX_AttachmentSlotComponent "{6A6D39D088D0EC9B}" {
+       AttachmentSlot InventoryStorageSlot GripMlock {
+        Offset 0 0.0014 0
+        InspectionWidgetOffset 0 0.0021 0.2994
+       }
+       AttachmentType FORTEX_AttachmentAKGripmlock "{6A6D39D088D0ED65}" {
+       }
+       ShowInInspection 1
+       m_bIsRailRequired 1
+       m_bProtectFromSmartSwap 0
+       m_aBlockAttachmentTypes {
+        AttachmentUnderBarrelGP25 "{6A6D39D088D0ED67}" {
+        }
+        FORTEX_BipodsMLOK "{6A6D39D088D0ED61}" {
+        }
+        FORTEX_BipodsRIS "{6A6D39D088D0ED60}" {
+        }
+       }
+      }
+      FORTEX_AttachmentSlotComponent "{6A6D39D088D0ED63}" {
+       AttachmentSlot InventoryStorageSlot BipodsMLOK {
+        Offset 0 0.0014 0
+        Enabled 0
+        Prefab "{857153082324579B}Prefabs/Weapons/Attachments/Bipods/Bipods_MLOK.et"
+        InspectionWidgetOffset 0 0.0021 0.2994
+       }
+       AttachmentType FORTEX_BipodsMLOK "{6A6D39D088D0ED6D}" {
+       }
+       ShowInInspection 1
+       m_bIsRailRequired 1
+       m_bProtectFromSmartSwap 0
+       m_aBlockAttachmentTypes {
+        FORTEX_AttachmentAKGripmlock "{6A6D39D088D0ED6C}" {
+        }
+        FORTEX_AttachmentAKGripris "{6A6D39D088D0ED6F}" {
+        }
+        AttachmentUnderBarrelGP25 "{6A6D39D088D0ED6E}" {
+        }
+        FORTEX_AttachmentAKOpticHG "{6A6D39D088D0ED69}" {
+        }
+       }
+      }
+      FORTEX_AttachmentSlotComponent "{6A6D39D088D0ED68}" {
+       AttachmentSlot InventoryStorageSlot GripRis {
+        Offset -0.002 -0.0106 0.015
+        InspectionWidgetOffset -0.0499 0.0186 0.2273
+       }
+       AttachmentType FORTEX_AttachmentAKGripris "{6A6D39D088D0ED6A}" {
+       }
+       ShowInInspection 1
+       m_bIsRailRequired 1
+       m_bProtectFromSmartSwap 0
+       m_aBlockAttachmentTypes {
+        AttachmentUnderBarrelGP25 "{6A6D39D088D0ED75}" {
+        }
+        FORTEX_BipodsMLOK "{6A6D39D088D0ED77}" {
+        }
+        FORTEX_BipodsRIS "{6A6D39D088D0ED76}" {
+        }
+       }
+      }
+      FORTEX_AttachmentSlotComponent "{6A6D39D088D0ED71}" {
+       AttachmentSlot InventoryStorageSlot BipodsRIS {
+        Offset -0.002 -0.0106 0.015
+        InspectionWidgetOffset -0.0499 0.0186 0.2273
+       }
+       AttachmentType FORTEX_BipodsRIS "{6A6D39D088D0ED70}" {
+       }
+       ShowInInspection 1
+       m_bIsRailRequired 1
+       m_bProtectFromSmartSwap 0
+       m_aBlockAttachmentTypes {
+        FORTEX_AttachmentAKGripris "{6A6D39D088D0ED72}" {
+        }
+        FORTEX_AttachmentAKGripmlock "{6A6D39D088D0ED7D}" {
+        }
+        AttachmentUnderBarrelGP25 "{6A6D39D088D0ED7C}" {
+        }
+        FORTEX_AttachmentAKOpticHG "{6A6D39D088D0ED7E}" {
+        }
+       }
+      }
+      FORTEX_AttachmentSlotComponent "{6A6D39D088D0ED79}" {
+       AttachmentSlot InventoryStorageSlot RisMid {
+        Offset -0.002 0.107 0.253
+        InspectionWidgetOffset 0 0.1378 0.3262
+       }
+       AttachmentType AttachmentRIS1913Short "{6A6D39D088D0ED7B}" {
+       }
+       ShowInInspection 1
+       m_bIsRailRequired 1
+       m_bProtectFromSmartSwap 0
+       m_aBlockAttachmentTypes {
+        FORTEX_AttachmentAKOpticHG "{6A6D39D088D0ED45}" {
+        }
+        FORTEX_AttachmentAKCamouflage "{6A6D39D088D0ED44}" {
+        }
+       }
+      }
+      FORTEX_AttachmentSlotComponent "{6A6D39D088D0ED46}" {
+       AttachmentSlot InventoryStorageSlot RisLeft {
+        Offset -0.026 0.087 0.283
+        Angles 0 0 -90
+        InspectionWidgetOffset -0.0601 0.076 0.3533
+       }
+       AttachmentType AttachmentRIS1913 "{6A6D39D088D0ED43}" {
+       }
+       ShowInInspection 1
+       m_bIsRailRequired 1
+       m_bProtectFromSmartSwap 0
+       m_aBlockAttachmentTypes {
+        FORTEX_AttachmentAKCamouflage "{6A6D39D088D0ED42}" {
+        }
+       }
+      }
+      FORTEX_AttachmentSlotComponent "{6A6D39D088D0ED4F}" {
+       AttachmentSlot InventoryStorageSlot RisRight {
+        Offset 0.026 0.087 0.283
+        Angles 0 0 90
+        InspectionWidgetOffset 0.0457 0.0748 0.3187
+       }
+       AttachmentType AttachmentRIS1913 "{6A6D39D088D0ED49}" {
+       }
+       ShowInInspection 1
+       m_bIsRailRequired 1
+       m_bProtectFromSmartSwap 0
+       m_aBlockAttachmentTypes {
+        FORTEX_AttachmentAKCamouflage "{6A6D39D088D0ED48}" {
+        }
+       }
+      }
+      FORTEX_AttachmentSlotComponent "{6A6D39D088D0ED4A}" {
+       AttachmentSlot InventoryStorageSlot OpticHG {
+        Offset -0.002 0.1067 0.2714
+        InspectionWidgetOffset 0 0.096 0.3768
+       }
+       AttachmentType FORTEX_AttachmentAKOpticHG "{6A6D39D088D0ED54}" {
+       }
+       ShowInInspection 1
+       m_bIsRailRequired 1
+       m_bProtectFromSmartSwap 0
+       m_aBlockAttachmentTypes {
+        AttachmentRIS1913Short "{6A6D39D088D0ED51}" {
+        }
+        FORTEX_AttachmentAKCamouflage "{6A6D39D088D0ED50}" {
+        }
+        FORTEX_BipodsMLOK "{6A6D39D088D0ED52}" {
+        }
+        FORTEX_BipodsRIS "{6A6D39D088D0ED5D}" {
+        }
+       }
+      }
+     }
+     AttachmentSlot InventoryStorageSlot HandGuard {
+      Prefab "{4FE786914329EEF9}Prefabs/Weapons/Attachments/HandGuard/ModernAK/HandGuard_Modern_Base.et"
+      InspectionWidgetOffset 0 0.0769 0.2596
+     }
+     AttachmentType FORTEX_AttachmentModernAKHandGuard "{6A6D39D088D0ED5E}" {
+     }
+     ShowInInspection 1
+     m_bIsRailAttachment 1
+     m_bSmartSwap 0
+     m_bSmartSwapConsumers 0
+     m_bRemovesChassis 1
+    }
+    FORTEX_AttachmentSlotComponent "{6A6D39D088D0ECAF}" {
+     AttachmentSlot InventoryStorageSlot Stock {
+      Offset 0 -0.003 0.0078
+      Prefab "{6B028F69EA0A650C}Prefabs/Weapons/Attachments/Stoke/Stock_Base_AK12.et"
+      InspectionWidgetOffset 0 0.0363 -0.2004
+     }
+     AttachmentType FORTEX_AttachmentAKStockAK100 "{6A6D39D088D0ECA9}" {
+     }
+     ShowInInspection 1
+     m_bProtectFromSmartSwap 0
+     m_aBlockAttachmentTypes {
+      FORTEX_AttachmentAKStock_MountBaseAK74 "{6A6D39D088D0ECAB}" {
+      }
+     }
+     m_bIsSolidStock 1
+    }
+    FORTEX_AttachmentSlotComponent "{6A6D39D088D0ECB5}" {
+     components {
+      FORTEX_AttachmentSlotComponent "{6A6D39D088D0ECB7}" {
+       AttachmentSlot InventoryStorageSlot StockModul {
+        Offset 0 0.0038 0
+        InspectionWidgetOffset 0 0.0336 -0.3047
+       }
+       AttachmentType FORTEX_AttachmentAKStock_Modul "{6A6D39D088D0ECB1}" {
+       }
+       ShowInInspection 1
+       m_bIsRailRequired 1
+       m_aBlockAttachmentTypes {
+        FORTEX_AttachmentAKStockAK100 "{6A6D39D088D0ECB3}" {
+        }
+       }
+       m_bIsStockModule 1
+      }
+     }
+     AttachmentSlot InventoryStorageSlot StockMount {
+      Offset 0 -0.003 0.0075
+      InspectionWidgetOffset 0 0.0499 -0.1025
+     }
+     AttachmentType FORTEX_AttachmentAKStock_MountBaseAK74 "{6A6D39D088D0ECBD}" {
+     }
+     ShowInInspection 1
+     m_bIsRailAttachment 1
+     m_aBlockAttachmentTypes {
+      FORTEX_AttachmentAKStockAK100 "{6A6D39D088D0ECBF}" {
+      }
+     }
+     m_bIsModularStockMount 1
+     m_sAutoSpawnModulePrefab "{C435ED4F5D8920F8}Prefabs/Weapons/Attachments/Stoke/Modular/Modul/Modul_Ctr_Carabine_Blk.et"
+    }
+    FORTEX_AttachmentSlotComponent "{6A6D39D088D0ECB9}" {
+     AttachmentSlot InventoryStorageSlot CSS {
+      PivotID "w_bolt"
+      Offset 0.0138 0.001 -0.0052
+      ChildPivotID "snap_bolt"
+      InspectionWidgetOffset 0.0376 0.0787 0.1405
+     }
+     AttachmentType FORTEX_AttachmentAKCSS "{6A6D39D088D0ECBA}" {
+     }
+     ShowInInspection 1
+    }
+    FORTEX_AttachmentSlotComponent "{6A6D39D088D0ECC0}" {
+     components {
+      FORTEX_AttachmentSlotComponent "{6A6D39D088D0ECC2}" {
+       Enabled 0
+       AttachmentSlot InventoryStorageSlot MechOptic {
+        Prefab "{0AC42A73D34B3785}Prefabs/Weapons/Attachments/Optics/AK12/MOptic.et"
+        InspectionWidgetOffset 0 0.1028 -0.0164
+       }
+       AttachmentType FORTEX_AttachmentAK12MOptic "{6A6D39D088D0ECCF}" {
+       }
+       ShowInInspection 1
+      }
+     }
+     AttachmentSlot InventoryStorageSlot OpticRIS {
+      Offset -0.002 0.1043 0.0749
+      InspectionWidgetOffset -0.0003 0.1228 0.0813
+     }
+     AttachmentType AttachmentOpticsRIS1913 "{6A6D39D088D0ECC9}" {
+     }
+     ShowInInspection 1
+    }
+    FORTEX_AttachmentSlotComponent "{6A6D39D088D0ECCB}" {
+     components {
+      FORTEX_AttachmentSlotComponent "{6A6D39D088D0ECD5}" {
+       AttachmentSlot InventoryStorageSlot PistolGripMount {
+        Offset -0.002 0 0.007
+        InspectionWidgetOffset 0 0.0205 -0.0456
+       }
+       AttachmentType FORTEX_AttachmentAKPistolGrip_MountBaseAK74 "{6A6D39D088D0ECD6}" {
+       }
+       ShowInInspection 1
+       m_bIsRailAttachment 1
+       m_aBlockAttachmentTypes {
+        FORTEX_AttachmentAKPistolGrip "{6A6D39D088D0ECD3}" {
+        }
+       }
+       m_bIsModularPistolGripMount 1
+       m_sAutoSpawnModulePrefab "{515DA02E3B8EDE40}Prefabs/Weapons/Attachments/PistolGrip/Modular/Modul/Modul_PislolGripAR_G47.et"
+      }
+      FORTEX_AttachmentSlotComponent "{6A6D39D088D0ECDD}" {
+       AttachmentSlot InventoryStorageSlot PistolGripModul {
+        Offset -0.002 0 0.007
+        InspectionWidgetOffset 0 -0.0495 -0.0651
+       }
+       AttachmentType FORTEX_AttachmentAKPistolGrip_Modul "{6A6D39D088D0ECDF}" {
+       }
+       ShowInInspection 1
+       m_bIsRailRequired 1
+       m_aBlockAttachmentTypes {
+        FORTEX_AttachmentAKPistolGrip "{6A6D39D088D0ECA7}" {
+        }
+       }
+       m_bIsPistolGripModule 1
+      }
+     }
+     AttachmentSlot InventoryStorageSlot PistolGrip {
+      Offset -0.002 0.0016 0.009
+      Prefab "{9DB9E8B09780191B}Prefabs/Weapons/Attachments/PistolGrip/PistolGrip_AK12_Base.et"
+      InspectionWidgetOffset 0 -0.0164 -0.0579
+     }
+     AttachmentType FORTEX_AttachmentAKPistolGrip "{6A6D39D088D0ECA0}" {
+     }
+     ShowInInspection 1
+     m_bProtectFromSmartSwap 0
+     m_aBlockAttachmentTypes {
+      FORTEX_AttachmentAKPistolGrip_MountBaseAK74 "{6A6D39D088D0ECA2}" {
+      }
+      FORTEX_AttachmentAKPistolGrip_Modul "{6A6D39D088D0ECAD}" {
+      }
+     }
+     m_bIsSolidPistolGrip 1
+    }
+    FORTEX_AttachmentSlotComponent "{6A6D39D088D0ECF0}" {
+     AttachmentSlot InventoryStorageSlot BaseBody {
+      Prefab "{E74574B8F1B233A8}Prefabs/Weapons/Attachments/BaseBody/Base_AK12/Base_BaseBody_AK12.et"
+      InspectionWidgetOffset 0 0.0511 0
+     }
+     AttachmentType FORTEX_AttachmentAKBaseBody_M "{6A6D39D088D0ECC7}" {
+     }
+     ShowInInspection 1
+    }
+    FORTEX_AttachmentSlotComponent "{6A6D39D088D0ED58}" {
+     AttachmentSlot InventoryStorageSlot Camouflage {
+      InspectionWidgetOffset 0 0.1474 0.2026
+     }
+     AttachmentType FORTEX_AttachmentAKCamouflage "{6A6D39D088D0ED5A}" {
+     }
+     ShowInInspection 1
+     m_bProtectFromSmartSwap 0
+     m_aBlockAttachmentTypes {
+      AttachmentRIS1913 "{6A6D39D088D0ED27}" {
+      }
+      FORTEX_AttachmentAKOpticHG "{6A6D39D088D0ED26}" {
+      }
+     }
+     m_bIsCamouflageSlot 1
+    }
+    SightsComponent "{BB23A637957CFFF8}" {
+     SightsPosition PointInfo "{BB23A63796688E69}" {
+      Offset -0.002 -0.026 0.012
+     }
+     SightsRanges {
+      SightRangeInfo "{584CED329E401420}" {
+       Range 0.323 100
+      }
+      SightRangeInfo "{584CED329E42F0E4}" {
+       Range 0.323 200
+       WeaponPosition PointInfo "{584CED329E42F017}" {
+        Offset 0 -0.0029 0
+        Angles 0.25 0 0
+       }
+      }
+      SightRangeInfo "{584CED329E45D8D6}" {
+       WeaponPosition PointInfo "{584CED329E45D8C3}" {
+        Angles 0.3 0 0
+       }
+      }
+      SightRangeInfo "{584CED329E44A70D}" {
+       Range 0.365 300
+       WeaponPosition PointInfo "{584CED329E44A73B}" {
+        Offset 0 -0.0035 0
+        Angles 0.31 0 0
+       }
+      }
+      SightRangeInfo "{584CED329E478DA3}" {
+       WeaponPosition PointInfo "{584CED329E478DAA}" {
+        Offset 0 -0.0035 0
+        Angles 0.365 0 0
+       }
+      }
+     }
+     SightsSwitchSkip 1
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{4E2B66CBA589F625}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Offset -0.0022 -0.0006 -0.0699
+        Prefab "{7751BE5A8E3A78B3}Prefabs/Weapons/Attachments/Muzzle/ModernAK/FlashHider_Open_AK Modern.et"
+        InspectionWidgetOffset 0 0.0685 0.5319
+       }
+       AttachmentType FORTEX_AttachmentAK12Supressor "{6A6D39D088D0ED37}" {
+       }
+       ShowInInspection 1
+      }
+      CaseEjectingEffectComponent "{5122AAD190FCA21D}" {
+       ParticleEffect "{6822491C5B4AB35F}Particles/Weapon/Casing_762x39/FORTEX_Casing_762x39.ptc"
+      }
+      SCR_MuzzleEffectComponent "{C9B3271BB22CDB68}" {
+       ParticleEffect "{D6F9CC979B1A5C8A}Particles/Weapon/Smoke_545x39and762x39/Open/Muzzle_Open.ptc"
+      }
+     }
+     MuzzleEndPositions {
+      PointInfo "{B80A64F4B6CFB9BF}" {
+       Offset 0 0 0.0479
+      }
+     }
+     FireModes {
+      BaseFireMode "{B80A64F4A8EF8333}" {
+       RoundsPerMinute 700
+      }
+      BaseFireMode "{619AB45C30091E43}" {
+       RoundsPerMinute 700
+      }
+      BaseFireMode "{6A6D39D088D0ED39}" {
+       MaxBurst 2
+       RoundsPerMinute 700
+       UIName "Burst"
+      }
+     }
+     MagazineWell MagazineWellVZ58_762 "{6A6D39D088D0ED1C}" {
+     }
+     BulletInitSpeedCoef 1
+     DispersionRange 400
+     WeaponAimModifiers {
+      SwayWeaponAimModifier "{521AE9A27BDC1E6F}" {
+       "Linear Damping" 0.7 0.45 0.725
+       "Stamina Scale Mins" 0.2 0.4 0
+       "Stamina Scale Maxs" 1 1.2 0
+      }
+      RecoilWeaponAimModifier "{55349E9229B55D9A}" {
+       LinearData RecoilData "{58789524E765774D}" {
+        "Curve X" {
+         0 1 0.2 0.65 0.3 0.5 1 0.5
+        }
+        "Curve Y" +{
+        }
+        "Curve Z" +{
+        }
+        "Curve Magnitudes" 0.7 0.3 1
+        "Curve Mins" -0.006 -0.007 -0.022
+        "Curve Maxs" 0.004 0.007 0.009
+        "Base Recoil Scale" 3
+        "OneHand Scale" 2
+       }
+       AngularData RecoilData "{58789524E7CAB55F}" {
+        "Curve X" +{
+        }
+        "Curve Y" +{
+        }
+        "Curve Z" +{
+        }
+        "Curve Time Scale" 1.25
+        "Curve Magnitudes" 1.226 0.416 0.73
+        "Curve Mins" -1 1.5 1
+        "Curve Maxs" 1.2 1.8 1
+        "Base Recoil Scale" 3
+        "OneHand Scale" 2
+       }
+       TurnOffsetData RecoilData "{58789524E0951484}" {
+        "Curve X" +{
+        }
+        "Curve Y" +{
+        }
+        "Curve Time Scale" 1
+        "Curve Magnitudes" 1.226 4.291 0.73
+        "Curve Mins" -1.5 3.4 0
+        "Curve Maxs" 1.5 4 0
+        "Base Recoil Scale" 3.15
+       }
+      }
+     }
+     UIInfo MuzzleUIInfo "{2FBBA72C906C627E}" {
+      m_sFiremodeBurst "firemode-rifle-burst4"
+     }
+     "LEFT HAND TARGET" DeploymentPointInfo lht {
+      Offset 0 0.0312 0.1709
+     }
+     MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
+      Offset -0.0027 0.0061 0.0071
+     }
+     MagazineTemplate "{1C5682A7F8AF7818}Prefabs/Weapons/Magazines/762x39/Mag_Magpul_762x39/Magazine_762x39_Magpul_30rnd.et"
+    }
+   }
+  }
+ }
+}

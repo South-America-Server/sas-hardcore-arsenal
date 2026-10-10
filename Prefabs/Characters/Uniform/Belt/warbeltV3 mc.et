@@ -1,9 +1,0 @@
-GenericEntity : "{FC24F09C640CCD0D}Prefabs/Characters/Uniform/Belt/warbeltV3 mc.et" {
- ID "50E0B40D7407B664"
- components {
-  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
-   AreaType ZEL_WaistArea "{5A68D3A67A86D88D}" {
-   }
-  }
- }
-}

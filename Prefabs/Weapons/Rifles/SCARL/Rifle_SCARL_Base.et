@@ -1,0 +1,26 @@
+GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{61785E090D534961}" {
+     Enabled 0
+     AttachmentSlot InventoryStorageSlot Foregrip {
+      Enabled 0
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     Enabled 0
+     components {
+      CaseEjectingEffectComponent "{5122AAD190FCA21D}" {
+       Enabled 0
+      }
+      SCR_MuzzleEffectComponent "{C9B3271BB22CDB68}" {
+       Enabled 0
+      }
+     }
+    }
+   }
+  }
+ }
+}

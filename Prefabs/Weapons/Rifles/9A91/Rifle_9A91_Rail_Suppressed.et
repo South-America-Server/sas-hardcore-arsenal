@@ -1,0 +1,23 @@
+GenericEntity : "{A585AE947C87E6E3}Prefabs/Weapons/Rifles/9A91/Rifle_9A91_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{66093802FCCE87B8}" {
+     AttachmentSlot WCS_RailAttachmentSlot Optic_RIS {
+      Enabled 0
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{64D8269CC5E6EA00}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

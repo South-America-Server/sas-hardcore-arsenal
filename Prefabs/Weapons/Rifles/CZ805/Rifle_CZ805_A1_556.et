@@ -1,0 +1,14 @@
+GenericEntity : "{D02E10E7EB9F8D46}Prefabs/Weapons/Rifles/CZ805/Rifle_CZ805_A1_556_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{659710C425A6E743}" {
+     AttachmentSlot WCS_RailAttachmentSlot Optic {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+}

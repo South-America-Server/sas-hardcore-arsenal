@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{E51D4CF1BD54695D}Prefabs/Weapons/Rifles/M4A1/MARSOC_Rifle_M4A1_BLOCK_II_1e.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

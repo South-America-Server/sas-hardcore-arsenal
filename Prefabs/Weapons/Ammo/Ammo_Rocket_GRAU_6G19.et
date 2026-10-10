@@ -1,0 +1,8 @@
+Projectile : "{C0BDA86B5AA5648C}Prefabs/Weapons/Core/Ammo_Rocket_Base.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  MeshObject "{851AA4A2AE0A56BF}" {
+   Object "{B69D757738C96455}Assets/Weapons/Magazines/RPG22/Rocket_PG22_item.xob"
+  }
+ }
+}

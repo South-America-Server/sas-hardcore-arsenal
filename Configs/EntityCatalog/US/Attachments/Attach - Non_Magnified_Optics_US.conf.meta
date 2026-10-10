@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{C9ABA99B2D0054E6}Configs/EntityCatalog/US/Attachments/Attach - Non_Magnified_Optics_US.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+  CONFResourceClass Xbox : PC {
+  }
+ }
+}

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{2E5086A776D9B9D1}Configs/EntityCatalog/US/Weapons/BACON/BACON - WEAPON ATTACHMENTS.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+  CONFResourceClass Xbox : PC {
+  }
+ }
+}

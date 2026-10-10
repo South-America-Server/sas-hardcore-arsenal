@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{0E830EA24B83C830}Configs/EntityCatalog/USSR/Clothing/FORTEX/FORTEX - BACKPACKS.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+  CONFResourceClass Xbox : PC {
+  }
+ }
+}

@@ -1,0 +1,282 @@
+[
+  {
+    "modId": "595F2BF2F44836FB",
+    "name": "RHS - Status Quo",
+    "version": ""
+  },
+  {
+    "modId": "65AD7D4F994EA327",
+    "name": "ACE Medical Circulation Dev",
+    "version": ""
+  },
+  {
+    "modId": "65B343F799FB521B",
+    "name": "ACE Medical Hitzones Dev",
+    "version": ""
+  },
+  {
+    "modId": "671F73D99978B4F2",
+    "name": "ACE Medical Breathing Dev",
+    "version": ""
+  },
+  {
+    "modId": "6586079789278413",
+    "name": "ACE Medical Core Dev",
+    "version": ""
+  },
+  {
+    "modId": "65AD7D0D9941A380",
+    "name": "ACE Core Dev",
+    "version": ""
+  },
+  {
+    "modId": "65AD7C249E4ECDFB",
+    "name": "ACE Captives Dev",
+    "version": ""
+  },
+  {
+    "modId": "629B2BA37EFFD577",
+    "name": "WCS_Armaments",
+    "version": ""
+  },
+  {
+    "modId": "62F364B35E9B51B0",
+    "name": "Wirecutters 2",
+    "version": ""
+  },
+  {
+    "modId": "5AB301290317994A",
+    "name": "Bacon Suppressors",
+    "version": ""
+  },
+  {
+    "modId": "6632F94B46173164",
+    "name": "Rayzi Utils",
+    "version": ""
+  },
+  {
+    "modId": "6666E4B95626F6C9",
+    "name": "RAYZIs OPTICS x RHS",
+    "version": ""
+  },
+  {
+    "modId": "628F720BC527C143",
+    "name": "Rayzis Optics",
+    "version": ""
+  },
+  {
+    "modId": "5ABD0CB57F7E9EB1",
+    "name": "RIS Laser Attachments",
+    "version": ""
+  },
+  {
+    "modId": "692AB768AE4E8CEB",
+    "name": "Prontos FN Minimi",
+    "version": ""
+  },
+  {
+    "modId": "66052DD2B655BF72",
+    "name": "Medical Accessories",
+    "version": ""
+  },
+  {
+    "modId": "647CB046E0EDE0D9",
+    "name": "FORTEX - Russian Tactical Gear",
+    "version": ""
+  },
+  {
+    "modId": "69293A8ED08A262D",
+    "name": "FORTEX - UTG",
+    "version": ""
+  },
+  {
+    "modId": "68F92DCEEC950E1C",
+    "name": "FORTEX RTW",
+    "version": ""
+  },
+  {
+    "modId": "6A46D7D65A7A5C9A",
+    "name": "Nested Attachments - Content",
+    "version": ""
+  },
+  {
+    "modId": "69BA25A1449A76BF",
+    "name": "401ks Russian Leaf Suits",
+    "version": ""
+  },
+  {
+    "modId": "690AC3895BAAFAE1",
+    "name": "FORTEX - RU Weapon Core",
+    "version": ""
+  },
+  {
+    "modId": "66D92EE8EB81518C",
+    "name": "FORTEX ORSIS T-5000",
+    "version": ""
+  },
+  {
+    "modId": "6A4545CCB3516E86",
+    "name": "ATGM",
+    "version": ""
+  },
+  {
+    "modId": "5CA8F34E77DD532C",
+    "name": "KOMRAD-12 Shotgun",
+    "version": ""
+  },
+  {
+    "modId": "5AB890B71D748750",
+    "name": "M4 Block II and URG-I",
+    "version": ""
+  },
+  {
+    "modId": "699D16D3F8654090",
+    "name": "MRAD .338",
+    "version": ""
+  },
+  {
+    "modId": "69148A1D52696666",
+    "name": "RGM-40_GL-06",
+    "version": ""
+  },
+  {
+    "modId": "6874D3BB57ADC921",
+    "name": "CIE UAR-10",
+    "version": ""
+  },
+  {
+    "modId": "686AC479236F235D",
+    "name": "M777 Howitzer Artillery",
+    "version": ""
+  },
+  {
+    "modId": "673F47A1192A73DD",
+    "name": "Nasty420 M700",
+    "version": ""
+  },
+  {
+    "modId": "66E47B53222F0782",
+    "name": "SSI M4A1 CQB Configurations",
+    "version": ""
+  },
+  {
+    "modId": "672D660B054DBD07",
+    "name": "Nasty420 Vulkan",
+    "version": ""
+  },
+  {
+    "modId": "66605C2E8E9D7287",
+    "name": "Krazys M16A3",
+    "version": ""
+  },
+  {
+    "modId": "65D60EA05AF85BE6",
+    "name": "Nasty M1014",
+    "version": ""
+  },
+  {
+    "modId": "6582D57B1C96215D",
+    "name": "Nasty AEK971",
+    "version": ""
+  },
+  {
+    "modId": "66D6340C1D565C98",
+    "name": "Chungus Core",
+    "version": ""
+  },
+  {
+    "modId": "64E37695015F8AFA",
+    "name": "AT-4",
+    "version": ""
+  },
+  {
+    "modId": "6497438B19727E0D",
+    "name": "MG3 with RIS rail",
+    "version": ""
+  },
+  {
+    "modId": "661EC1140DA89179",
+    "name": "Nasty OSV-96",
+    "version": ""
+  },
+  {
+    "modId": "6447378A6C7CB747",
+    "name": "PKP-B",
+    "version": ""
+  },
+  {
+    "modId": "6590ECF80DD17257",
+    "name": "MSBS Grot",
+    "version": ""
+  },
+  {
+    "modId": "6330B96AA6C84654",
+    "name": "CIE Snipex Alligator 14.5x114",
+    "version": ""
+  },
+  {
+    "modId": "61C2509A023211FE",
+    "name": "M4 MAAWS",
+    "version": ""
+  },
+  {
+    "modId": "616478A18DC7DCB6",
+    "name": "FN SCAR -HEAVY and LIGHT-",
+    "version": ""
+  },
+  {
+    "modId": "65D050C86106E5BC",
+    "name": "Smokeable Smokes",
+    "version": ""
+  },
+  {
+    "modId": "620E584B1D2C96A4",
+    "name": "Chungus Shotguns",
+    "version": ""
+  },
+  {
+    "modId": "5C6CC278BBBFAA71",
+    "name": "Functional Knives",
+    "version": ""
+  },
+  {
+    "modId": "65AD60E204191D37",
+    "name": "Realistic Combat Drones",
+    "version": ""
+  },
+  {
+    "modId": "6513632B54E38040",
+    "name": "RHS M-Pact Reskin By SiL",
+    "version": ""
+  },
+  {
+    "modId": "65117E01FC88FE08",
+    "name": "RTG Armbands",
+    "version": ""
+  },
+  {
+    "modId": "64722DADC53CB75E",
+    "name": "NV-System",
+    "version": ""
+  },
+  {
+    "modId": "620E426C34BE0D17",
+    "name": "Laser Rangefinder",
+    "version": ""
+  },
+  {
+    "modId": "60D23A92813D0C8E",
+    "name": "Country Flag Patches",
+    "version": ""
+  },
+  {
+    "modId": "6288EE3B3A7ACCA4",
+    "name": "CIE Patches",
+    "version": ""
+  },
+  {
+    "modId": "6A264116603CE321",
+    "name": "Stunning - All in one",
+    "version": ""
+  }
+]

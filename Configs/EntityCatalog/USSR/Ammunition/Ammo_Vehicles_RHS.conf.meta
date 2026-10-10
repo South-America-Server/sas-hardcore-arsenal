@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{B128453E1060B9AC}Configs/EntityCatalog/USSR/Ammunition/Ammo_Vehicles_RHS.conf"
+ Name "{B128453E1060B9AB}Configs/EntityCatalog/USSR/Ammunition/Ammo_Vehicles_RHS.conf"
  Configurations {
   CONFResourceClass PC {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   CONFResourceClass PS5 : PC {
   }
   CONFResourceClass HEADLESS : PC {
+  }
+  CONFResourceClass Xbox : PC {
   }
  }
 }

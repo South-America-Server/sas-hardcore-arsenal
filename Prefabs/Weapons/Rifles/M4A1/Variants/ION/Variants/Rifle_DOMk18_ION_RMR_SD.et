@@ -1,0 +1,28 @@
+GenericEntity : "{DA497CDFE0AFF685}Prefabs/Weapons/Rifles/M4A1/Variants/ION/Rifle_M4A1_BLOCK_1_ION.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E0EEDB0BD59EE7D}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot Optics {
+      Enabled 0
+     }
+    }
+    AttachmentSlotComponent "{629ADD528EE856C1}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{629ADD52ACAC8DC6}" {
+      Enabled 0
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{626713EF43D3CC9E}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

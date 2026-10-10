@@ -1,0 +1,7 @@
+GameEntity {
+ ID "69970564CE0D8337"
+ components {
+  CER_IPL_LockableComponent "{6A764BA096823D0F}" {
+  }
+ }
+}

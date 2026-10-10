@@ -1,0 +1,290 @@
+GenericEntity : "{9064206CBDE9CD95}Prefabs/Weapons/Core/Launcher_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{910AB3BC20ED9A93}Sounds/Weapons/Launchers/M72A3_LAW/Weapons_Launchers_M72A3_LAW_Shot.acp" "{25E916F699EC00BA}Sounds/Weapons/Launchers/M72A3_LAW/Weapons_Launchers_M72A3_LAW_Handling.acp" "{98E0914D023CFBCC}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Launcher.acp" "{BE75864A922B37C0}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Launcher.acp" "{D8F675F3468362E2}Sounds/Weapons/_SharedData/Weapons_Sights_Actions.acp" "{06D3A8F7F0A920C2}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Launcher.acp" "{EDDAFD7BFDC9098A}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Physical_Launcher.acp"
+   }
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{8290EA5F04E73C19}Assets/Weapons/Launchers/AT4/AT4.xob"
+  }
+  RigidBody "{6A7779F329DD7277}" {
+   SimState None
+   ModelGeometry 1
+  }
+  SCR_MeleeWeaponProperties "{6A7779F329DD7262}" {
+   m_fDamage 45
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB047B845168}" {
+     Name "#ICR-Weapon_AT4HEDP_Name"
+     Description "#ICR-Weapon_AT4Base_Desc"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6A7779F329DD7267}" {
+     Weight 1.36
+     SizeSetupStrategy Manual
+     ItemDimensions 25 25 25
+     ItemVolume 2500
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{5284960DAA53DDFC}" {
+     IkSettings {
+      ItemIKSettings "{5284960DA9B88634}" {
+      }
+      ItemIKSettings "{5284960DA9EA45EA}" {
+       IkSettingsProne 0x7 0
+      }
+      ItemIKSettings "{5284960DA87282B4}" {
+       IkSettingsStand 0x7 0
+       IkSettingsCrouch 0x7 0
+       IkSettingsProne 0x7 0
+      }
+      ItemIKSettings "{5526E345D0462B03}" {
+       MovementSpeedRange 0 5
+       IkSettingsStand 0x6 0
+       IkSettingsCrouch 0x4 0
+       IkSettingsProne 0x4 0
+      }
+     }
+     AnimationInstance "{9532406C1ABAB791}anims/workspaces/player/player_main_AT4.asi"
+     AnimationIKPose "{449BD39689E371D7}Assets/Weapons/Launchers/AT4/anims/ans/p_AT4_01_ik.anm"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6A7779F329DD7250}" {
+      CameraPreset Right
+      CameraDistanceToItem 1
+      FOV 20
+      AnimationInstance "{A99BA5D249B525FD}anims/workspaces/player/player_inventory_M72.asi"
+     }
+    }
+   }
+  }
+  SCR_WeaponBlastComponent "{624C97444AC1B357}" {
+   m_aBlastEffects {
+    SCR_WeaponBlastEffect "{6262C5CD4A05A2DE}" : "{F2479EB25365462C}Prefabs/Weapons/Core/Damage/WeaponBlast/WeaponBlastEffect_Damage.conf" {
+     m_fDamageValue 120
+     m_aDistanceDamageFalloff {
+      0 1 0.268 0.508 0.769 0.081 1 0
+     }
+    }
+    SCR_WeaponBlastEffect "{6262C5CD4B6E8B06}" : "{32657999002110ED}Prefabs/Weapons/Core/Damage/WeaponBlast/WeaponBlastEffect_Concussion.conf" {
+     m_DamageEffect SCR_BackBlastDamageEffect "{6262C5CDA676872D}" {
+     }
+     m_aDistanceDamageFalloff {
+      0 1 0.268 0.508 0.769 0.081 1 0
+     }
+    }
+   }
+   m_fBlastLength 20
+   m_fBlastConeAngle 45
+   m_BlastOrigin PointInfo "{6A7779F329DD7256}" {
+    PivotID "barrel_chamber"
+    Offset 0 0 -0.1824
+    Angles 0 180 0
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{B502E4DC8A9E835E}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      PivotID "slot_optics"
+      ChildPivotID "snap_weapon"
+      Enabled 0
+     }
+    }
+    SCR_MuzzleInMagComponent "{50F65D04F21F7633}" {
+     components {
+      MuzzleEffectComponent "{50F65D04EE343E7E}" {
+       ParticleEffect "{CB259340B7C9C3E2}Particles/Weapon/Muzzle_M72LAW_01.ptc"
+      }
+      SCR_MuzzleEffectComponent "{6A7779F329DD724E}" {
+       ParticleEffect "{1D4741B0CEBEDA48}Particles/Weapon/Muzzle_M72LAW_02.ptc"
+       EnabledOnDedicatedServer 1
+       EffectPosition EntitySlotInfo "{52C8A8C1586FF1B3}" {
+        PivotID "barrel_chamber"
+        Offset 0 0 -0.2
+        Angles 0 180 0
+       }
+      }
+     }
+     ProjectileSpawnPositions {
+      PointInfo "{50F65D0454F95B2D}" {
+       Angles 0.5 0 0
+      }
+     }
+     DispersionRange 35
+     WeaponAimModifiers {
+      RecoilWeaponAimModifier "{6A7779F329DD7246}" {
+       LinearData RecoilData "{6A7779F329DD7247}" {
+        "Curve X" {
+         0 0.5 0.058 0.738 0.324 0.452 0.659 0.498 1 0.5
+        }
+        "Curve Y" {
+         0 0.5 0.06 0.748 0.317 0.452 0.631 0.495 1 0.5
+        }
+        "Curve Z" {
+         0 0.498 0.064 0.8 0.324 0.348 0.646 0.498 1 0.5
+        }
+        "Curve Time Scale" 1.45
+        "Curve Magnitudes" 1 1 1
+        "Curve Mins" -0.005 -0.01 -0.04
+        "Curve Maxs" 0.005 0.015 -0.02
+       }
+       AngularData RecoilData "{6A7779F329DD7238}" {
+        "Curve X" {
+         0 0.5 0.121 0.597 0.651 0.502 1 0.5
+        }
+        "Curve Y" {
+         0 0.5 0.063 0.849 0.32 0.231 0.692 0.495 1 0.5
+        }
+        "Curve Z" {
+         0 0.5 0.058 0.363 0.319 0.578 0.654 0.498 1 0.5
+        }
+        "Curve Time Scale" 1.45
+        "Curve Magnitudes" 1 1 1
+        "Curve Mins" -0.01 -1.5 -8
+        "Curve Maxs" 0.01 -0.5 -2
+       }
+       TurnOffsetData RecoilData "{6A7779F329DD723A}" {
+        "Curve X" {
+         0.73 0.765 0.899 0.441
+        }
+        "Curve Y" {
+         0.501 0.725 0.878 0.343
+        }
+        "Curve Z" {
+         0.397 0.708 0.859 0.262
+        }
+        "Curve Time Scale" 5.925
+        "Curve Magnitudes" 1 1 1
+        "Curve Mins" 1 7.5 270
+        "Curve Maxs" 1 7.5 275
+        "Base Recoil Scale" 7.577
+        "Move Recoil Scale" 0.494
+       }
+      }
+      ZeroingWeaponAimModifier "{6A7779F329DD723C}" {
+      }
+     }
+     UIInfo MuzzleUIInfo "{50F65D05B8374621}" {
+      m_MagIndicator SCR_MagazineIndicatorConfiguration "{5660B15A4287B00B}" : "{650F378E6751CC17}Configs/WeaponInfo/MagazineIndicators/rocket_m72a3.conf" {
+      }
+     }
+     Disposable 1
+     NeedsSetup 1
+     ProjectilePosition InventoryStorageSlot "{51070C3B47428343}" {
+      Offset 0 0 0.1204
+      InspectionWidgetOffset 0 0.035 -0.199
+     }
+     AmmoTemplate "{B5F471AB0FD61FA6}Prefabs/Weapons/Ammo/Ammo_HEDP_Rocket_AT4.et"
+     ProjectileVisible 1
+     m_bCanBeReloaded 0
+    }
+    SightsComponent "{BB23A637957CFFF8}" {
+     SightsPosition PointInfo "{BB23A63796688E69}" {
+      PivotID "eye"
+      Offset 0 0 0
+     }
+     SightsRanges {
+      SightRangeInfo "{6A7779F329DD7235}" {
+       Range 0 50
+       WeaponPosition PointInfo "{6A7779F329DD7236}" {
+        Offset 0 0 0
+        Angles 0.10986 0 0
+       }
+      }
+      SightRangeInfo "{6A7779F329DD7222}" {
+       Range 0 100
+       WeaponPosition PointInfo "{6A7779F329DD7223}" {
+        Offset 0 0 0
+        Angles 0.30762 0 0
+       }
+      }
+      SightRangeInfo "{6A7779F329DD7225}" {
+       Range 0 150
+       WeaponPosition PointInfo "{6A7779F329DD7226}" {
+        Offset 0 0 0
+        Angles 0.4834 0 0
+       }
+      }
+      SightRangeInfo "{6A7779F329DDB24F}" {
+       Range 0 200
+       WeaponPosition PointInfo "{6A7779F329DDB271}" {
+        Offset 0 0 0
+        Angles 0.65918 0 0
+       }
+      }
+      SightRangeInfo "{6A7779F329DDB270}" {
+       Range 0 250
+       WeaponPosition PointInfo "{6A7779F329DDB272}" {
+        Offset 0 0 0
+        Angles 0.87891 0 0
+       }
+      }
+      SightRangeInfo "{6A7779F329DDB275}" {
+       Range 0 300
+       WeaponPosition PointInfo "{6A7779F329DDB274}" {
+        Offset 0 0 0
+        Angles 1.09863 0 0
+       }
+      }
+      SightRangeInfo "{6A7779F329DDB277}" {
+       Range 0 350
+       WeaponPosition PointInfo "{6A7779F329DDB27E}" {
+        Offset 0 0 0
+        Angles 1.31836 0 0
+       }
+      }
+     }
+     SightsPointFront PointInfo "{6A7779F329DDB260}" {
+      PivotID "sight_point_front"
+     }
+     SightsPointRear PointInfo "{6A7779F329DDB262}" {
+      PivotID "w_sight_cover_rear"
+     }
+     ZeroingGenerator RotatingApertureZeroingGenerator "{6A7779F329DDB264}" {
+      ZeroRaiseToEye 1
+     }
+     m_bForceSimpleDOF 1
+    }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     AnimGraph "{75C2D39DE6D90FDA}Assets/Weapons/Launchers/workspaces/m72.agr"
+     AnimInstance "{84FA659775E0DA50}Assets/Weapons/Launchers/workspaces/AT4_weapon.asi"
+     AnimInjection AnimationAttachmentInfo "{6A7779F329DDB269}" {
+      AnimGraph "{75C2D39DE6D90FDA}Assets/Weapons/Launchers/workspaces/m72.agr"
+      AnimInstance "{7FA4F4A6EDE1BEBC}Assets/Weapons/Launchers/workspaces/AT4_player.asi"
+      BindingName "Weapon"
+     }
+     BindWithInjection 1
+    }
+   }
+   obstructionTestAddedLength 0.15
+   SoundInt 1050300
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "#ICR-Weapon_AT4HEAT_Name"
+    Description "#ICR-Weapon_AT4Base_Desc"
+    Icon ""
+   }
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   ActionContexts {
+    UserActionContext "{5086F9ADF588DCA4}" {
+     Position PointInfo "{5086F9ADE97650DF}" {
+      Offset 0 0.0566 0.0544
+     }
+    }
+    UserActionContext "{5A1E58F7AED270D4}" {
+     Position PointInfo "{6A7779F329DDB26E}" {
+      PivotID "w_safety"
+     }
+     Radius 0.05
+    }
+   }
+  }
+  WeaponGamepadEffectsManagerComponent "{61A2E5C3F4458F86}" {
+   "Default ADS Trigger effect" GamepadTriggerEffect "{61B129618F212411}" : "{0DE3E1891C66DCEB}Prefabs/Weapons/Core/Configs/TriggerEffects/ADS/TriggerEffect_ADSMedium.conf" {
+   }
+  }
+ }
+}

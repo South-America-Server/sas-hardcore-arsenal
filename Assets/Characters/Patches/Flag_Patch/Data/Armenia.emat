@@ -1,0 +1,8 @@
+MatPBRBasic {
+ Color 0.584 0.584 0.584 1
+ AllowUserAlphaBias 1
+ DisableUserAphaInShadow 1
+ RoughnessScale 5
+ BCRMap "{8B55ABE3981B1D0D}Assets/Characters/Patches/Flag_Patch/Data/Armenia_BCR.edds"
+ NMOMap "{B38D1071416C4F93}Assets/Characters/Patches/Flag_Patch/Data/Armenia_NMO.edds"
+}

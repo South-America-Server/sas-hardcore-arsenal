@@ -1,0 +1,108 @@
+GenericEntity : "{BCFDDDC7EF1A030D}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_BLOCK_1.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{6A6946B5574D2989}" {
+     SourceMaterial "LP_LOWER_ASSEMBLY"
+     AssignedMaterial "{7253DF3FFB345AB1}Assets/Weapons/Rifles/m4a1/Data/05_LP_LOWER_ASSEMBLY.emat"
+    }
+   }
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "M4A1 CQBR BLOCK II (MARSOC)"
+     Description ""
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E0ED05F322AB08B}" {
+     AttachmentSlot InventoryStorageSlot PistolGrip {
+      Prefab "{C0F60692C8ECD7F5}Prefabs/Weapons/Attachments/Grips/PistolGrip_AR15_A2/RHS_M4A1_Grip_DDC.et"
+     }
+    }
+    AttachmentSlotComponent "{5E0EEDA2E5FAA2B6}" {
+     AttachmentSlot InventoryStorageSlot Buttstock {
+      Offset 0 0 -0.0345
+      Prefab "{16238C369C1342AB}Prefabs/Weapons/Attachments/Stocks/Stock_AR15_SOPMOD/RHS_M4_SOPMOD_DDC.et"
+     }
+    }
+    AttachmentSlotComponent "{5E0EEDA7F53DE1B1}" {
+     AttachmentSlot InventoryStorageSlot Upper {
+      Prefab "{B91D4054D4D6836A}Prefabs/Weapons/Rifles/M4A1/base_parts/MARSOC_RHS_M4A1_05_UpperReceiver.et"
+     }
+    }
+    AttachmentSlotComponent "{5E0EEDA8BD59EE7D}" {
+     AttachmentSlot InventoryStorageSlot ChargingHandle {
+      Prefab "{97236D8266A2971F}Prefabs/Weapons/Attachments/Misc/M4ChargingHandles/GA_GCH_BLK.et"
+     }
+    }
+    AttachmentSlotComponent "{5E0EEDB0BD59EE7D}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot Optics {
+     }
+    }
+    AttachmentSlotComponent "{5EA2BE949ECF03E3}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{5EA2BE9573F14F0C}" {
+     }
+    }
+    AttachmentSlotComponent "{609EE5047488AAA1}" {
+     AttachmentSlot InventoryStorageSlot REAR_IRONSIGHT {
+      Prefab "{9ECBF331E7F6EED3}Prefabs/Weapons/Attachments/Optics/mbus/mbus_tan_folding_sight_rear.et"
+     }
+    }
+    AttachmentSlotComponent "{609EE504E194D66F}" {
+     AttachmentSlot InventoryStorageSlot FRONT_IRONSIGHT {
+      Prefab "{CEF0704C814E32C5}Prefabs/Weapons/Attachments/Optics/mbus/mbus_tan_folding_sight_front.et"
+     }
+    }
+    AttachmentSlotComponent "{61749A66C4BA094E}" {
+     AttachmentSlot InventoryStorageSlot bayonet {
+      Offset 0 -0.0257 -0.1568
+      Prefab "{27E5AB0264ADB077}Prefabs/5AB890B71D748750/Grip/AFG_AFG2.et"
+     }
+     AttachmentType Bacon_5AB890B71D748750_AttachmentGrip "{61749A66B6578064}" {
+     }
+    }
+    AttachmentSlotComponent "{629ADD50107BFFEA}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{629ADD500DE777C8}" {
+      Offset -0.0273 0.0794 0.2887
+     }
+    }
+    AttachmentSlotComponent "{629ADD528EE856C1}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{629ADD52ACAC8DC6}" {
+      Offset 0.0278 0.0819 0.3033
+     }
+    }
+    AttachmentSlotComponent "{647D57A4E99CBFA3}" {
+     Enabled 0
+    }
+    AttachmentSlotComponent "{6A6946B5574D2A6E}" {
+     AttachmentSlot InventoryStorageSlot "{66E67D8C3883A77C}" {
+      PivotID "slot_risattachment_ugl"
+      Offset 0 0.0549 0.3122
+      MergePhysics 1
+      ChildPivotID "snap_weapon"
+      DisablePhysicsInteraction 1
+      DeactivatePhysicsOnAtaching 1
+      InspectionWidgetOffset 0 -0.001 0.338
+     }
+     AttachmentType Bacon_5AB890B71D748750_AttachmentBottomRIS "{6A6946B5574D2A75}" {
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{626713EF43D3CC9E}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+       }
+      }
+     }
+     MagazineTemplate "{B5693611B92F0BAA}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_MCT_30rnd_M855A1.et"
+    }
+   }
+  }
+ }
+ coords 618.901 51.436 2264.643
+}

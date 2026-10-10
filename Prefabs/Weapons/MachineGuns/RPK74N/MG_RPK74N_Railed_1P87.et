@@ -1,0 +1,14 @@
+GenericEntity : "{4C995EA1C0E79A28}Prefabs/Weapons/MachineGuns/RPK74N/MG_RPK74N_Railed.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{60DB4B742D022494}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot ris {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+}

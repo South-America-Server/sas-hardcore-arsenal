@@ -1,0 +1,179 @@
+GenericEntity : "{28D63631873AA636}Prefabs/Compositions/Slotted/SlotFlatSmall/MortarPlacement_S_USSR_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  SCR_EditableEntityComponent "{6186DB2D6421216C}" : "{B35795373E565FE7}Prefabs/Editor/Components/SlotFlatSmall_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-EditableEntity_MortarEmplacement_2B14_S_USSR_Name"
+    m_Image "{2C1C4E34D2836EA1}UI/Textures/EditorPreviews/Auto/Slotted/SlotFlatSmall/E_MortarPlacement_S_USSR.edds"
+    m_sFaction "US"
+    m_aAuthoredLabels {
+     ENTITYTYPE_COMPOSITION SLOT_FLAT_SMALL TRAIT_REARMING TRAIT_FORTIFICATION SERVICE_ARMORY TRAIT_ARSENAL TRAIT_MORTAR SERVICE_MORTAR FACTION_US
+    }
+    m_aAutoLabels {
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{6A10BA068DD16425}" {
+      m_BudgetType CAMPAIGN
+      m_Value 400
+     }
+     SCR_EntityBudgetValue "{6A10BA068DD1643E}" {
+      m_BudgetType RANK_SERGEANT
+      m_Value 3
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{6A10BA068DD16438}" {
+      m_BudgetType PROPS
+      m_Value 24
+     }
+     SCR_EntityBudgetValue "{6A10BA068DD1643B}" {
+      m_BudgetType SYSTEMS
+      m_Value 4
+     }
+    }
+   }
+   m_Flags 131395
+  }
+  SCR_EditorLinkComponent "{6A10BA068DD16407}" {
+   m_bRandomizeVariants 0
+   m_aEntries {
+    SCR_EditorLinkEntry "{6A10BA068DD16400}" {
+     m_Prefab "{690D00E1D22C02DF}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Foundation_Mortar_USSR.et"
+     m_vPosition 0 0.2 0
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+   }
+  }
+ }
+ {
+  GenericEntity {
+   ID "6186DB2F1DE37192"
+   Flags 0x100000 0x403
+   {
+    GenericEntity {
+     ID "60B8D36A59BEEA13"
+     Flags 0x100000 0x403
+    }
+    GenericEntity {
+     ID "60B8D36A59BEEA17"
+     Flags 0x100000 0x3
+     {
+      DecalEntity {
+       ID "56DF08929A14FB98"
+       Flags 0x100000 0x80003
+      }
+     }
+    }
+    GenericEntity {
+     ID "60B8D36A59BEEA1B"
+     Flags 0x100000 0x3
+     {
+      DecalEntity {
+       ID "56DF08929A14FB98"
+       Flags 0x100000 0x80003
+      }
+     }
+    }
+    GenericEntity {
+     ID "60B8D36A59BEEA38"
+     Flags 0x100000 0x3
+     {
+      DecalEntity {
+       ID "56DEFDB4A9499F9B"
+       Flags 0x100000 0x80003
+      }
+     }
+    }
+    GenericEntity {
+     ID "60B8D36A59BEEAC8"
+     Flags 0x100000 0x403
+    }
+    GenericEntity {
+     ID "60B8D36A59BEEACD"
+     Flags 0x100000 0x403
+    }
+    GenericEntity {
+     ID "61869E8404F61A5F"
+     Flags 0x100000 0x403
+    }
+    GenericEntity {
+     ID "61869E93336290C0"
+     Flags 0x100000 0x403
+    }
+    GenericEntity {
+     ID "61869E93336290D9"
+     Flags 0x100000 0x403
+    }
+    GenericEntity {
+     ID "61869E93336290EF"
+     Flags 0x100000 0x403
+    }
+    GenericEntity {
+     ID "61869E9333629100"
+     Flags 0x100000 0x403
+    }
+    GenericEntity {
+     ID "61869E9333629115"
+     Flags 0x100000 0x403
+    }
+    GenericEntity {
+     ID "61869E9333629132"
+     Flags 0x100000 0x403
+    }
+    GenericEntity {
+     ID "61869E9333629147"
+     Flags 0x100000 0x403
+    }
+    GenericEntity {
+     ID "61869E9333629155"
+     Flags 0x100000 0x403
+    }
+    GenericEntity {
+     ID "6186CCEA6FABAA76"
+     Flags 0x100000 0x403
+     {
+      GenericEntity {
+       ID "6186CCEA53FABBE8"
+       Flags 0x100000 0x403
+      }
+      GenericEntity {
+       ID "6186CCEA53FD399D"
+       Flags 0x100000 0x403
+      }
+      GenericEntity {
+       ID "6186CCEA53FD399E"
+       Flags 0x100000 0x403
+      }
+      GenericEntity {
+       ID "6186CCEA53FD399F"
+       Flags 0x100000 0x403
+      }
+     }
+    }
+    GenericEntity {
+     ID "6186CCEA93C28875"
+     Flags 0x100000 0x403
+     {
+      GenericEntity {
+       ID "6186CBE3FD01DC2B"
+       Flags 0x100000 0x403
+      }
+      GenericEntity {
+       ID "6186CBE3FD01DC4E"
+       Flags 0x100000 0x403
+      }
+      GenericEntity {
+       ID "6186CCEAB192AD3D"
+       Flags 0x100000 0x403
+      }
+     }
+    }
+    Turret {
+     ID "60B8D36A59BEEA2F"
+     Flags 0x100000 0x3
+    }
+   }
+  }
+ }
+}

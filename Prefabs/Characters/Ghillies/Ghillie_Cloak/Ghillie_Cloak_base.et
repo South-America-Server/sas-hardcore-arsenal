@@ -1,9 +1,0 @@
-GameEntity : "{8A2B2A544F3ED831}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_base.et" {
- ID "50D485E1435D6C72"
- components {
-  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
-   AreaType ZEL_NeckArea "{5A68DCDCC87D9EB5}" {
-   }
-  }
- }
-}

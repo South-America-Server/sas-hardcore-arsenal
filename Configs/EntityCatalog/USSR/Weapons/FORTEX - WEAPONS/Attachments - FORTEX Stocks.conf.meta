@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{6A0A756000000056}Configs/EntityCatalog/USSR/Weapons/FORTEX - WEAPONS/Attachments - FORTEX Stocks.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+  CONFResourceClass Xbox : PC {
+  }
+ }
+}

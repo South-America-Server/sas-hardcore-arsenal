@@ -1,0 +1,46 @@
+GenericEntity : "{9569026177545A20}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "7.62x39 Beryl M762 Mag"
+     Description "7.62x39 mm"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{548695E22AFB97DA}" {
+     Weight 0.2
+     ItemVolume 230
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{548695E22AFB97DC}" {
+      CameraDistanceToItem 1.1
+     }
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell MagazineWellVZ58_762 "{6A6D39D21B42A494}" {
+   }
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    Name "7.62x39 Beryl M762 Mag"
+    Description "7.62x39 mm"
+    m_sAmmoCaliber "7.62x39"
+    m_sAmmoType "FMJ"
+   }
+   MaxAmmo 30
+   AmmoConfig "{0AC4886D96DE1EC7}Configs/Weapons/Ammo/Ammo_BERYL_762x39.conf"
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{74DEB31EDBA73B45}Assets/Weapons/Rifles/Beryl_M762/beryl_M762_magazine.xob"
+  }
+  ActionsManagerComponent "{F092E6B0537754FD}" {
+   additionalActions {
+    SCR_AttachItemFromInventoryAction "{5A1E58F7D9256374}" {
+     UIInfo SCR_ActionUIInfo "{5A1E58F7D137DE75}" {
+      Name "Attach: "
+     }
+    }
+   }
+  }
+ }
+}

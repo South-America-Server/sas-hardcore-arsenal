@@ -1,0 +1,47 @@
+GenericEntity : "{A0BDF1F3D71DB106}Prefabs/Compositions/Misc/FreeRoamBuilding/M777Mound.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  SCR_EditableEntityComponent "{68A08D71C95189E8}" : "{8B8F72167C615EAA}Prefabs/Editor/Components/Compositions_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-EditableEntity_Artillery_Mound_Name"
+    m_Image "{00277B24B1F9CCD2}Images/m777_mound.edds"
+    m_sFaction "USSR"
+    m_aAuthoredLabels {
+     ENTITYTYPE_OBJECT THEME_MILITARY CONTENT_MODDED FACTION_USSR
+    }
+    m_aAutoLabels {
+     SIZE_S
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{6A10BA07399696AC}" {
+      m_BudgetType CAMPAIGN
+      m_Value 10
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{6A10BA07399696B5}" {
+      m_Value 1
+     }
+     SCR_EntityBudgetValue "{6A10BA07399696B4}" {
+      m_Value 1
+     }
+    }
+   }
+   m_Flags 132355
+  }
+  SCR_EditorLinkComponent "{6A10BA07399696B3}" {
+   m_aEntries {
+    SCR_EditorLinkEntry "{6A10BA07399696BC}" {
+     m_Prefab "{341A2E27D51ABBF5}PrefabsEditable/Auto/Structures/Military/Fortifications/E_M777Mound_V.et"
+    }
+   }
+  }
+ }
+ coords 895.526 39 2620.484
+ {
+  StaticModelEntity {
+   ID "689F60222625FD01"
+   Flags 0x100000 0
+  }
+ }
+}

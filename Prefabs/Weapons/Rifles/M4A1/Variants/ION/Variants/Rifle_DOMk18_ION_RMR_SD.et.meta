@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{40DC4A6EE53B969E}Prefabs/Weapons/Rifles/M4A1/Variants/ION/Variants/Rifle_DOMk18_ION_RMR_SD.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

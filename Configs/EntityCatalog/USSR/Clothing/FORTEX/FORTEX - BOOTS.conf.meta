@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{2378A90BDC43981E}Configs/EntityCatalog/USSR/Clothing/FORTEX/FORTEX - BOOTS.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+  CONFResourceClass Xbox : PC {
+  }
+ }
+}
